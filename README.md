@@ -104,7 +104,7 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 
 ## **Características do DVR hibrido Hikvision s DS-7108HGHI-K1**
 
-<img src="img/dvr.jpg" alt="DVR" width="60%">
+<img src="img/dvr.jpg" alt="DVR" width="40%">
 
 
 | **Item** | **Descrição** |
