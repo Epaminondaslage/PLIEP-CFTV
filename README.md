@@ -8,46 +8,24 @@
 
 ## Sumário
 - [Carga Horária](#carga-horária)
-- [Objetivo Geral](#objetivo-geral)
-- [Objetivos Específicos](#objetivos-específicos)
+- [🎯 Objetivo Geral](#-objetivo-geral)
+- [🎯 Objetivos Específicos](#-objetivos-específicos)
 - [Competências e Habilidades](#competências-e-habilidades)
 - [Introdução](#introdução)
 - [Conteúdo Programático](#conteúdo-programático)
   - [1. Fundamentos do CFTV](#1-fundamentos-do-cftv)
-    - [Conceito e Diferença entre Circuito Aberto e Circuito Fechado](#conceito-e-diferença-entre-circuito-aberto-e-circuito-fechado)
-    - [Finalidades Técnicas e Operacionais do CFTV](#finalidades-técnicas-e-operacionais-do-cftv)
-    - [Importância do CFTV na Segurança Eletrônica](#importância-do-cftv-na-segurança-eletrônica)
   - [2. Formas de Cabeamento](#2-formas-de-cabeamento)
-    - [Cabo Coaxial](#cabo-coaxial)
-    - [Cabo UTP (Unshielded Twisted Pair)](#cabo-utp-unshielded-twisted-pair)
-    - [Crimpar e testar o conector RJ45](#crimpar-e-testar-o-conector-rj45)
   - [3. Tipos de Câmeras](#3-tipos-de-câmeras)
-    - [Câmeras Analógicas](#câmeras-analógicas)
-    - [Câmeras IP (Internet Protocol)](#câmeras-ip-internet-protocol)
   - [4. Equipamentos de Gravação](#4-equipamentos-de-gravação)
-    - [DVR (Digital Video Recorder)](#dvr-digital-video-recorder)
-    - [NVR (Network Video Recorder)](#nvr-network-video-recorder)
-  - [5. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
-    - [Inteligência Artificial (IA)](#inteligência-artificial-ia)
-    - [Internet das Coisas (IoT)](#internet-das-coisas-iot)
-    - [Armazenamento e Monitoramento em Nuvem](#armazenamento-e-monitoramento-em-nuvem)
-    - [Integração com Automação Predial e Controle de Acesso](#integração-com-automação-predial-e-controle-de-acesso)
-- [Características do DVR hibrido Hikvision s DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
+  - [5. Características do DVR Híbrido Hikvision DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
+  - [6. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
 - [Metodologia](#metodologia)
 - [Recursos Didáticos](#recursos-didáticos)
 - [Parte Prática](#parte-prática)
   - [Procedimentos](#procedimentos)
-  - [Guia de Inicialização e Configuração – DVR/NVR Hikvision](#guia-de-inicialização-e-configuração--dvrnvr-hikvision)
-    - [Inicialização (Startup)](#inicialização-startup)
-    - [Ativação do Dispositivo](#ativação-do-dispositivo)
-    - [Configurações de Rede (Network Settings)](#configurações-de-rede-network-settings)
-    - [Adicionar Câmeras IP (Add Network Camera)](#adicionar-câmeras-ip-add-network-camera)
-    - [Configuração do Hik-Connect](#configuração-do-hik-connect)
-    - [Configuração de Gravação (Recording Settings)](#configuração-de-gravação-recording-settings)
-    - [Reprodução (Playback)](#reprodução-playback)
-  - [Conexão ao Sistema Local do Laboratório](#conexão-ao-sistema-local-do-laboratório)
-    - [Rede Local do Laboratório de Instalações Elétricas Prediais (LIEP)](#rede-local-do-laboratório-de-instalações-elétricas-prediais-liep)
-  - [Teste de Visualização e Gravação](#teste-de-visualização-e-gravação)
+  - [Conexão ao Sistema Local do Laboratório](#conexão-do-celular-ao-sistema-wi-fi-local-do-laboratório)
+  - [Guia de Inicialização e Configuração](#guia-de-inicialização-e-configuração--dvrnvr-hikvision)
+  - [Teste de Visualização e Gravação](#-teste-de-visualização-e-gravação)
 
 ---
 
@@ -164,10 +142,6 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Conectores: **RJ45**.  
 - Vantagens: menor custo, flexibilidade e facilidade de instalação.
   
-#### Crimpar e testar o  conector RJ45 
-
-[Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
-
 ---
 
 ### 3. Tipos de Câmeras
@@ -338,7 +312,10 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 2. **Montagem do Cabeamento UTP**  
    - Montar e testar os **cabos UTP Categoria 5 ou superior** para interligação das **câmeras IP** à rede.  
    - Utilizar conectores **RJ45 padrão T568B** em ambas as extremidades.  
-   - Garantir a correta fixação do cabo no rack ou ponto de rede designado.  
+   - Garantir a correta fixação do cabo no rack ou ponto de rede designado.
+   -  Crimpar e testar o  conector RJ45 
+
+      [Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
 
 3. **Conexões Finais e Integração com o DVR**  
    - Conectar as **câmeras analógicas** às portas **BNC** do DVR.  
@@ -352,10 +329,41 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 4. **Configuração do Aplicativo de Monitoramento**  
    - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
    - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.
+   - O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
 
+      <div style="text-align:center;">
+           <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
+      </div>
 ---
 
-##  Guia de Inicialização e Configuração – DVR/NVR Hikvision
+5. **Conexão do celular ao Sistema WI-FI Local do Laboratório**
+
+- Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
+- Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
+- Configurar o **acesso direto (LAN)** no aplicativo **Hik-Connect**, utilizando o **endereço IP do DVR** e as **credenciais de login** fornecidas pelo professor.  
+- O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
+- Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
+
+**Configurações da Rede Local (DHCP)**
+
+| Parâmetro | Valor |
+|------------|--------|
+| **Faixa de IPs** | 10.240.240.x *(x varia de 20 a 240)* |
+| **Gateway padrão** | 10.240.240.1 |
+| **Máscara de sub-rede** | 255.255.255.0 |
+
+**Configurações da Rede Wi-Fi do Laboratório**
+
+| Parâmetro | Valor |
+|------------|--------|
+| **SSID** | DEE-Prediais |
+| **Senha** | prediais123 |
+| **Acesso à Internet** | Não disponível *(rede restrita apenas à LAN do laboratório)* |
+
+> ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
+> Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
+
+6. ## Guia de Inicialização e Configuração – DVR/NVR Hikvision
 
 ###  Inicialização (Startup)
 
@@ -409,7 +417,7 @@ Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os p
 
 ---
 
-### Adicionar Câmeras IP (Add Network Camera)
+7. ### Adicionar Câmeras IP (Add Network Camera)
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
@@ -425,13 +433,7 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-### Configuração do Hik-Connect
-
-O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
-
-<div style="text-align:center;">
-     <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
-</div>
+8. ### Configuração do Hik-Connect
 
 **Passos:**
 
@@ -449,7 +451,7 @@ O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acess
 
 ---
 
-### Configuração de Gravação (Recording Settings)
+9. ### Configuração de Gravação (Recording Settings)
 
 Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** está corretamente instalado ou adicionado ao sistema.  
 Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
@@ -466,7 +468,7 @@ Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após 
 
 ---
 
-### Reprodução (Playback)
+10. ### Reprodução (Playback)
 
 Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
 
@@ -481,39 +483,7 @@ Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamen
 
 ---
 
-##  Conexão ao Sistema Local do Laboratório
-
-- Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
-- Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
-- Configurar o **acesso direto (LAN)** no aplicativo **Hik-Connect**, utilizando o **endereço IP do DVR** e as **credenciais de login** fornecidas pelo professor.  
-
-### Rede Local do Laboratório de Instalações Elétricas Prediais (LIEP)
-
-O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
-Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
-
-#### Configurações da Rede Local (DHCP)
-
-| Parâmetro | Valor |
-|------------|--------|
-| **Faixa de IPs** | 10.240.240.x *(x varia de 20 a 240)* |
-| **Gateway padrão** | 10.240.240.1 |
-| **Máscara de sub-rede** | 255.255.255.0 |
-
-#### Configurações da Rede Wi-Fi do Laboratório
-
-| Parâmetro | Valor |
-|------------|--------|
-| **SSID** | DEE-Prediais |
-| **Senha** | prediais123 |
-| **Acesso à Internet** | Não disponível *(rede restrita apenas à LAN do laboratório)* |
-
-> ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
-> Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
-
----
-
-##  Teste de Visualização e Gravação
+11. ###  Teste de Visualização e Gravação
 - Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
 - Testar a **gravação e reprodução** de imagens no DVR.  
 - Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
