@@ -7,9 +7,10 @@
 ---
 
 ## Sumário
+## Sumário
 - [Carga Horária](#carga-horária)
-- [🎯 Objetivo Geral](#-objetivo-geral)
-- [🎯 Objetivos Específicos](#-objetivos-específicos)
+- [🎯 Objetivo Geral](#objetivo-geral)
+- [🎯 Objetivos Específicos](#objetivos-específicos)
 - [Competências e Habilidades](#competências-e-habilidades)
 - [Introdução](#introdução)
 - [Conteúdo Programático](#conteúdo-programático)
@@ -17,15 +18,21 @@
   - [2. Formas de Cabeamento](#2-formas-de-cabeamento)
   - [3. Tipos de Câmeras](#3-tipos-de-câmeras)
   - [4. Equipamentos de Gravação](#4-equipamentos-de-gravação)
-  - [5. Características do DVR Híbrido Hikvision DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
-  - [6. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
+  - [5. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
+- [Características do DVR hibrido Hikvision s DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
 - [Metodologia](#metodologia)
 - [Recursos Didáticos](#recursos-didáticos)
 - [Parte Prática](#parte-prática)
   - [Procedimentos](#procedimentos)
-  - [Conexão ao Sistema Local do Laboratório](#conexão-do-celular-ao-sistema-wi-fi-local-do-laboratório)
-  - [Guia de Inicialização e Configuração](#guia-de-inicialização-e-configuração--dvrnvr-hikvision)
-  - [Teste de Visualização e Gravação](#-teste-de-visualização-e-gravação)
+  - [Guia de Inicialização e Configuração – DVR/NVR Hikvision](#guia-de-inicialização-e-configuração--dvrnvr-hikvision)
+  - [Inicialização (Startup)](#inicialização-startup)
+  - [Ativação do Dispositivo](#ativação-do-dispositivo)
+  - [Configurações de Rede (Network Settings)](#configurações-de-rede-network-settings)
+  - [Adicionar Câmeras IP (Add Network Camera)](#adicionar-câmeras-ip-add-network-camera)
+  - [Configuração do Hik-Connect](#configuração-do-hik-connect)
+  - [Configuração de Gravação (Recording Settings)](#configuração-de-gravação-recording-settings)
+  - [Reprodução (Playback)](#reprodução-playback)
+  - [Teste de Visualização e Gravação](#teste-de-visualização-e-gravação)
 
 ---
 
