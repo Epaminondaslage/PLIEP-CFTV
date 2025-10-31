@@ -143,7 +143,7 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 #### Cabo Coaxial
 
 <div style="text-align:center;">
-     <img src="img/cabo_coaxial.jpg" alt="coaxial" style="width:40%;">
+     <img src="img/cabo_coaxial.jpg" alt="coaxial" style="width:20%;">
 </div>
 
 - Utilizado principalmente em sistemas analógicos (DVR).  
@@ -155,7 +155,7 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 #### Cabo UTP (Unshielded Twisted Pair)
 
 <div style="text-align:center;">
-     <img src="img/cabo_upt.jpg" alt="utp" style="width:40%;">
+     <img src="img/cabo_utp.jpg" alt="utp" style="width:20%;">
 </div>
 
 - Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
