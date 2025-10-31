@@ -27,6 +27,20 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
+## Competências e Habilidades
+**Competências:**
+- Instalar e configurar sistemas de segurança eletrônica.  
+- Analisar o funcionamento e desempenho de sistemas de CFTV.  
+- Aplicar normas técnicas e boas práticas de cabeamento estruturado.  
+
+**Habilidades:**
+- Montar e testar redes coaxiais e UTP.  
+- Configurar câmeras analógicas e IP.  
+- Operar DVRs e NVRs com software de gestão.  
+- Identificar falhas e realizar manutenção preventiva.
+
+---
+
 ## Introdução
 O **Circuito Fechado de Televisão (CFTV)** é um sistema de vigilância eletrônica que utiliza câmeras conectadas a monitores e gravadores, permitindo o monitoramento de ambientes de forma restrita e controlada.  
 Com o avanço da tecnologia, o CFTV evoluiu de sistemas **analógicos com cabos coaxiais** para **sistemas digitais baseados em rede IP**, integrando-se à **Internet das Coisas (IoT)** e à **Inteligência Artificial (IA)**.  
@@ -237,32 +251,49 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 - Projetor multimídia e quadro branco.  
 
 ---
+##  **Parte Prática**
 
-## Competências e Habilidades
-**Competências:**
-- Instalar e configurar sistemas de segurança eletrônica.  
-- Analisar o funcionamento e desempenho de sistemas de CFTV.  
-- Aplicar normas técnicas e boas práticas de cabeamento estruturado.  
-
-**Habilidades:**
-- Montar e testar redes coaxiais e UTP.  
-- Configurar câmeras analógicas e IP.  
-- Operar DVRs e NVRs com software de gestão.  
-- Identificar falhas e realizar manutenção preventiva.  
+Nesta atividade, o aluno deverá **montar, configurar e testar um sistema completo de CFTV híbrido**, utilizando câmeras analógicas e IP, cabeamento adequado e integração com aplicativo de monitoramento móvel.  O objetivo é compreender na prática os **conceitos de instalação, conectividade e operação de sistemas de vigilância eletrônica**.
 
 ---
 
-## Resultados Esperados
-Ao final da aula prática, o aluno deverá ser capaz de:
-- Diferenciar câmeras analógicas e IP e seus modos de conexão.  
-- Instalar corretamente cabos coaxiais e UTP.  
-- Configurar DVRs e NVRs para gravação e monitoramento.  
-- Integrar sistemas de CFTV com redes e dispositivos de automação.  
-- Reconhecer os avanços tecnológicos aplicados à segurança eletrônica.  
+###  **Procedimentos**
+
+1. **Montagem do Cabeamento Coaxial**  
+   - Confeccionar e instalar **cabos coaxiais RG59** entre as **cinco câmeras analógicas** instaladas nos boxes e o **DVR Hikvision**.  
+   - Certificar-se de que os conectores **BNC** estão corretamente prensados e identificados.  
+   - Verificar continuidade e integridade dos cabos antes da conexão final.  
+
+2. **Montagem do Cabeamento UTP**  
+   - Montar e testar os **cabos UTP Categoria 5 ou superior** para interligação das **câmeras IP** à rede.  
+   - Utilizar conectores **RJ45 padrão T568B** em ambas as extremidades.  
+   - Garantir a correta fixação do cabo no rack ou ponto de rede designado.  
+
+3. **Conexões Finais e Integração com o DVR**  
+   - Conectar as **câmeras analógicas** às portas **BNC** do DVR.  
+   - Conectar as **câmeras IP** e o **DVR** à **rede Ethernet** do laboratório.  
+   - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
+
+   <div style="text-align:center;">
+     <img src="img/dvr.jpg" alt="DVR Hikvision" style="width:60%;">
+   </div>
+
+4. **Configuração do Aplicativo de Monitoramento**  
+   - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
+   - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.  
+   - Criar uma conta ou acessar com credenciais institucionais, se aplicável.  
+
+5. **Conexão ao Sistema Local do Laboratório**  
+   - Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
+   - Garantir que o dispositivo móvel e o DVR estejam na **mesma sub-rede local**.  
+   - Configurar o **acesso direto (LAN)** no aplicativo, utilizando o **endereço IP do DVR** e as **credenciais de login**.  
+
+6. **Teste de Visualização e Gravação**  
+   - Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
+   - Testar a **gravação e reprodução** de imagens no DVR.  
+   - Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
 
 ---
 
-📅 **Professor:** _______________________________________  
-👨‍🏫 **Data:** ____ / ____ / ______  
-📋 **Turma:** ___________________________  
+
 
