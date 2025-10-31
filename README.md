@@ -1,23 +1,25 @@
-# Disciplina: PLIEP
 
-# Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
+<img src="img/cftv.jpg" alt="CFTV" width="40%">
 
-## Curso
-Técnico em Eletrotécnica – 2º Ano  
-CEFET-MG
+**Departamento de Engenharia Elétrica do CEFET-MG Campus NG**
 
+**Coordenação do Curso Técnico de Eletrotécnica**
 
-## Carga Horária
+**Laboratório de Instalações Elétricas Prediais - PLIEP**
+
+**Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)**
+
+### Carga Horária
 2 horas-aula
 
 ---
 
-## 🎯 Objetivo Geral
+### 🎯 Objetivo Geral
 Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito Fechado de Televisão (CFTV)**, abordando desde seus princípios de funcionamento até as tecnologias mais recentes, capacitando-os para aplicar esse conhecimento em situações reais de segurança eletrônica.
 
 ---
 
-## 🎯 Objetivos Específicos
+### 🎯 Objetivos Específicos
 - Reconhecer os componentes básicos de um sistema de CFTV.  
 - Compreender os diferentes **tipos de câmeras analógicas e IP**, seus recursos e aplicações.  
 - Identificar as **formas de cabeamento (coaxial e UTP)** e suas características técnicas.  
@@ -27,7 +29,7 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
-## Competências e Habilidades
+### Competências e Habilidades
 **Competências:**
 - Instalar e configurar sistemas de segurança eletrônica.  
 - Analisar o funcionamento e desempenho de sistemas de CFTV.  
@@ -41,16 +43,16 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
-## Introdução
+### Introdução
 O **Circuito Fechado de Televisão (CFTV)** é um sistema de vigilância eletrônica que utiliza câmeras conectadas a monitores e gravadores, permitindo o monitoramento de ambientes de forma restrita e controlada.  
 Com o avanço da tecnologia, o CFTV evoluiu de sistemas **analógicos com cabos coaxiais** para **sistemas digitais baseados em rede IP**, integrando-se à **Internet das Coisas (IoT)** e à **Inteligência Artificial (IA)**.  
 Nesta aula, os alunos irão compreender os princípios de funcionamento, os componentes essenciais, os tipos de câmeras, os meios de transmissão de sinal e as boas práticas de instalação e manutenção.
 
 ---
 
-## Conteúdo Programático
+### Conteúdo Programático
 
-### 1. Fundamentos do CFTV
+#### 1. Fundamentos do CFTV
 
 O **Circuito Fechado de Televisão (CFTV)** é um **sistema eletrônico de aquisição, transmissão, processamento e exibição de imagens** destinado ao monitoramento de ambientes internos ou externos de forma controlada. Trata-se de um subsistema amplamente empregado em **infraestruturas de segurança eletrônica e automação predial**, cuja principal característica é o **acesso restrito** às imagens captadas, diferindo fundamentalmente das transmissões públicas de televisão.
 
@@ -109,7 +111,11 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
 - Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
 - Conectores: **RJ45**.  
-- Vantagens: menor custo, flexibilidade e facilidade de instalação.  
+- Vantagens: menor custo, flexibilidade e facilidade de instalação.
+  
+#### Crimpar e testar o  conector RJ45 
+
+[Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
 
 ---
 
