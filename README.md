@@ -100,15 +100,90 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 - Conecta-se às câmeras via rede (Ethernet).  
 - Recebe os sinais já digitalizados.  
 - Suporta gravação em alta resolução e múltiplos canais IP.  
-- Integra-se a redes PoE e armazenamento em nuvem.  
+- Integra-se a redes PoE e armazenamento em nuvem.
 
 ---
 
-### 5. Evolução Tecnológica e Integração
-- **IA:** reconhecimento facial, contagem de pessoas, detecção de comportamento.  
-- **IoT:** integração com sensores e sistemas automatizados.  
-- **Nuvem:** monitoramento remoto e armazenamento seguro.  
-- **Integração com automação predial** e controle de acesso.  
+## 🔧 **Características do DVR hibrido Hikvision s DS-7108HGHI-K1**
+
+<img src="i/img/dvr.jpg" alt="DVR" width="60%">
+
+
+| **Item** | **Descrição** |
+|-----------|----------------|
+| **Marca** | Hikvision |
+| **Modelo** | DS-7108HGHI-K1 (S) |
+| **Quantidade de canais** | 8 |
+| **Resolução máxima de vídeo** | 1080n |
+| **Tipo de resolução** | Lite |
+| **Conectores de saída** | VGA, HDMI, RCA |
+| **Inclui HD** | Não |
+| **Conectores de entrada** | HD-TVI, HD-CVI, AHD, Analógico (CVBS), IP |
+| **Capacidade de armazenamento** | 4 TB |
+| **Tipos de controle** | Mouse |
+| **Sistemas operativos compatíveis** | Android, iOS |
+| **Quantidade de portas PoE** | 1 |
+| **Com vídeo ao vivo** | Sim |
+| **Com áudio bidirecional** | Sim |
+| **Com sensor de movimento** | Sim |
+| **Formatos de compressão de vídeo** | H.264, H.265, H.264+, H.265 Pro, H.265 Pro+ |
+| **Modos de gravação** | Detecção de movimento |
+
+---
+
+### 5. **Evolução Tecnológica e Integração**
+
+Os sistemas de **CFTV modernos** evoluíram significativamente com o avanço da tecnologia digital, passando de soluções isoladas de gravação local para plataformas inteligentes e integradas com outros sistemas de segurança e automação. Essa evolução trouxe ganhos expressivos em desempenho, segurança, conectividade e análise inteligente das imagens.
+
+#### 🤖 **Inteligência Artificial (IA)**
+A introdução da **IA** nos sistemas de CFTV transformou a forma de monitorar e interpretar eventos.  
+As câmeras e gravadores atuais utilizam **processamento de vídeo inteligente (IVA – Intelligent Video Analytics)** para reconhecer padrões e automatizar decisões.  
+Principais aplicações:
+- **Reconhecimento facial** para controle de acesso e identificação de indivíduos.  
+- **Contagem de pessoas e veículos** em ambientes comerciais e industriais.  
+- **Detecção de comportamento anômalo**, como movimentação fora de horário, aglomerações ou invasões de perímetro.  
+- **Filtragem inteligente de eventos**, permitindo buscas rápidas em gravações com base em critérios como cor, tamanho ou direção do movimento.  
+
+Esses recursos otimizam a vigilância, reduzem falsos alarmes e permitem respostas rápidas e automáticas.
+
+---
+
+#### 🌐 **Internet das Coisas (IoT)**
+Com a integração ao conceito de **IoT (Internet of Things)**, o CFTV passou a ser parte ativa de um ecossistema de dispositivos conectados.  
+As câmeras IP modernas podem se comunicar com sensores, alarmes, controladores e sistemas de automação predial, criando uma rede inteligente de segurança.  
+Exemplos de aplicações:
+- **Acionamento automático de iluminação** ao detectar presença.  
+- **Envio de alertas instantâneos** a aplicativos móveis ou centrais de monitoramento.  
+- **Integração com sensores ambientais** (temperatura, fumaça, movimento).  
+- **Controle remoto via interface web ou aplicativos móveis**, com ajustes e monitoramento em tempo real.  
+
+A integração via protocolos como **MQTT, ONVIF e Modbus** permite a interoperabilidade entre dispositivos de diferentes fabricantes.
+
+---
+
+#### ☁️ **Armazenamento e Monitoramento em Nuvem**
+O uso da **computação em nuvem** revolucionou a forma como as imagens são armazenadas e acessadas.  
+Antes restritos a discos rígidos locais, os sistemas atuais podem gravar e gerenciar vídeos remotamente com segurança e escalabilidade.  
+Principais vantagens:
+- **Acesso remoto** às imagens em tempo real de qualquer lugar.  
+- **Backup automático** e redundância de dados.  
+- **Redução de custos com infraestrutura física de armazenamento.**  
+- **Atualizações automáticas de software e firmware.**  
+- **Análise avançada baseada em IA** processada diretamente na nuvem.  
+
+A nuvem também facilita a **centralização do monitoramento**, permitindo que diversas unidades ou filiais sejam supervisionadas de um único centro de controle.
+
+---
+
+#### 🏢 **Integração com Automação Predial e Controle de Acesso**
+O CFTV moderno não atua de forma isolada — ele faz parte de um sistema unificado de **gestão predial e segurança eletrônica**.  
+A integração com sistemas de **automação predial** e **controle de acesso** permite:
+- Sincronização entre câmeras e **leitores biométricos, catracas e fechaduras eletrônicas**.  
+- **Geração de registros automáticos** (imagem + log de entrada/saída).  
+- **Automação de respostas** — por exemplo, acionar alarmes sonoros, bloqueios de portas ou notificações instantâneas quando um evento é detectado.  
+- **Visualização unificada** de todos os subsistemas (CFTV, alarmes, sensores, iluminação e climatização) em uma única interface de supervisão.  
+
+Essa integração amplia o conceito de **edifício inteligente**, combinando **segurança, eficiência energética e conforto operacional**.
 
 ---
 
@@ -117,24 +192,15 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 2. Demonstração prática de cabeamento coaxial e UTP.  
 3. Montagem de um sistema com câmeras analógicas e IP.  
 4. Configuração e teste de DVR e NVR em bancada.  
-5. Discussão sobre boas práticas e desafios técnicos.  
-6. Elaboração de relatório técnico da prática.  
+
 
 ---
 
 ## 🧰 Recursos Didáticos
-- Kits de CFTV (câmeras analógicas e IP, DVR, NVR, cabos, conectores).  
-- Computadores com software de VMS (Video Management System).  
+- Kit de CFTV (câmeras analógicas e IP, DVR, cabos, conectores).
+- Configuração de app para acesso ao Sistema de CFTV
 - Acesso à internet e rede local.  
 - Projetor multimídia e quadro branco.  
-
----
-
-## 🧾 Avaliação
-- Participação e desempenho nas atividades práticas.  
-- Identificação correta dos componentes e cabeamentos.  
-- Montagem e configuração funcional do sistema de CFTV.  
-- Relatório técnico final com justificativa de escolhas e análise de desempenho.  
 
 ---
 
