@@ -363,7 +363,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 > ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
 > Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
 
-6. ## Guia de Inicialização e Configuração – DVR/NVR Hikvision
+6. **Guia de Inicialização e Configuração – DVR/NVR Hikvision**
 
 ###  Inicialização (Startup)
 
@@ -417,7 +417,7 @@ Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os p
 
 ---
 
-7. ### Adicionar Câmeras IP (Add Network Camera)
+7. **Adicionar Câmeras IP (Add Network Camera)**
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
@@ -433,7 +433,7 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-8. ### Configuração do Hik-Connect
+8. **Configuração do Hik-Connect**
 
 **Passos:**
 
@@ -451,7 +451,7 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-9. ### Configuração de Gravação (Recording Settings)
+9. **Configuração de Gravação (Recording Settings)**
 
 Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** está corretamente instalado ou adicionado ao sistema.  
 Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
@@ -468,7 +468,7 @@ Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após 
 
 ---
 
-10. ### Reprodução (Playback)
+10. **Reprodução (Playback)**
 
 Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
 
@@ -483,7 +483,7 @@ Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamen
 
 ---
 
-11. ###  Teste de Visualização e Gravação
+11. **Teste de Visualização e Gravação**
 - Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
 - Testar a **gravação e reprodução** de imagens no DVR.  
 - Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
