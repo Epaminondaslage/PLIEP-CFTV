@@ -1,25 +1,67 @@
+<img src="img/cftv.jpg" alt="CFTV" width="80%">
 
-<img src="img/cftv.jpg" alt="CFTV" width="40%">
+**Departamento de Engenharia Elétrica do CEFET-MG Campus NG**  
+**Coordenação do Curso Técnico de Eletrotécnica**  
+**Laboratório de Instalações Elétricas Prediais - PLIEP**  
+## Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
+---
 
-**Departamento de Engenharia Elétrica do CEFET-MG Campus NG**
+## Sumário
+- [Carga Horária](#carga-horária)
+- [Objetivo Geral](#objetivo-geral)
+- [Objetivos Específicos](#objetivos-específicos)
+- [Competências e Habilidades](#competências-e-habilidades)
+- [Introdução](#introdução)
+- [Conteúdo Programático](#conteúdo-programático)
+  - [1. Fundamentos do CFTV](#1-fundamentos-do-cftv)
+    - [Conceito e Diferença entre Circuito Aberto e Circuito Fechado](#conceito-e-diferença-entre-circuito-aberto-e-circuito-fechado)
+    - [Finalidades Técnicas e Operacionais do CFTV](#finalidades-técnicas-e-operacionais-do-cftv)
+    - [Importância do CFTV na Segurança Eletrônica](#importância-do-cftv-na-segurança-eletrônica)
+  - [2. Formas de Cabeamento](#2-formas-de-cabeamento)
+    - [Cabo Coaxial](#cabo-coaxial)
+    - [Cabo UTP (Unshielded Twisted Pair)](#cabo-utp-unshielded-twisted-pair)
+    - [Crimpar e testar o conector RJ45](#crimpar-e-testar-o-conector-rj45)
+  - [3. Tipos de Câmeras](#3-tipos-de-câmeras)
+    - [Câmeras Analógicas](#câmeras-analógicas)
+    - [Câmeras IP (Internet Protocol)](#câmeras-ip-internet-protocol)
+  - [4. Equipamentos de Gravação](#4-equipamentos-de-gravação)
+    - [DVR (Digital Video Recorder)](#dvr-digital-video-recorder)
+    - [NVR (Network Video Recorder)](#nvr-network-video-recorder)
+  - [5. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
+    - [Inteligência Artificial (IA)](#inteligência-artificial-ia)
+    - [Internet das Coisas (IoT)](#internet-das-coisas-iot)
+    - [Armazenamento e Monitoramento em Nuvem](#armazenamento-e-monitoramento-em-nuvem)
+    - [Integração com Automação Predial e Controle de Acesso](#integração-com-automação-predial-e-controle-de-acesso)
+- [Características do DVR hibrido Hikvision s DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
+- [Metodologia](#metodologia)
+- [Recursos Didáticos](#recursos-didáticos)
+- [Parte Prática](#parte-prática)
+  - [Procedimentos](#procedimentos)
+  - [Guia de Inicialização e Configuração – DVR/NVR Hikvision](#guia-de-inicialização-e-configuração--dvrnvr-hikvision)
+    - [Inicialização (Startup)](#inicialização-startup)
+    - [Ativação do Dispositivo](#ativação-do-dispositivo)
+    - [Configurações de Rede (Network Settings)](#configurações-de-rede-network-settings)
+    - [Adicionar Câmeras IP (Add Network Camera)](#adicionar-câmeras-ip-add-network-camera)
+    - [Configuração do Hik-Connect](#configuração-do-hik-connect)
+    - [Configuração de Gravação (Recording Settings)](#configuração-de-gravação-recording-settings)
+    - [Reprodução (Playback)](#reprodução-playback)
+  - [Conexão ao Sistema Local do Laboratório](#conexão-ao-sistema-local-do-laboratório)
+    - [Rede Local do Laboratório de Instalações Elétricas Prediais (LIEP)](#rede-local-do-laboratório-de-instalações-elétricas-prediais-liep)
+  - [Teste de Visualização e Gravação](#teste-de-visualização-e-gravação)
 
-**Coordenação do Curso Técnico de Eletrotécnica**
+---
 
-**Laboratório de Instalações Elétricas Prediais - PLIEP**
-
-**Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)**
-
-### Carga Horária
+## Carga Horária
 2 horas-aula
 
 ---
 
-### 🎯 Objetivo Geral
+## 🎯 Objetivo Geral
 Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito Fechado de Televisão (CFTV)**, abordando desde seus princípios de funcionamento até as tecnologias mais recentes, capacitando-os para aplicar esse conhecimento em situações reais de segurança eletrônica.
 
 ---
 
-### 🎯 Objetivos Específicos
+## 🎯 Objetivos Específicos
 - Reconhecer os componentes básicos de um sistema de CFTV.  
 - Compreender os diferentes **tipos de câmeras analógicas e IP**, seus recursos e aplicações.  
 - Identificar as **formas de cabeamento (coaxial e UTP)** e suas características técnicas.  
@@ -29,7 +71,7 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
-### Competências e Habilidades
+## Competências e Habilidades
 **Competências:**
 - Instalar e configurar sistemas de segurança eletrônica.  
 - Analisar o funcionamento e desempenho de sistemas de CFTV.  
@@ -43,23 +85,22 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
-### Introdução
+## Introdução
 O **Circuito Fechado de Televisão (CFTV)** é um sistema de vigilância eletrônica que utiliza câmeras conectadas a monitores e gravadores, permitindo o monitoramento de ambientes de forma restrita e controlada.  
 Com o avanço da tecnologia, o CFTV evoluiu de sistemas **analógicos com cabos coaxiais** para **sistemas digitais baseados em rede IP**, integrando-se à **Internet das Coisas (IoT)** e à **Inteligência Artificial (IA)**.  
 Nesta aula, os alunos irão compreender os princípios de funcionamento, os componentes essenciais, os tipos de câmeras, os meios de transmissão de sinal e as boas práticas de instalação e manutenção.
 
 ---
 
-### Conteúdo Programático
+## Conteúdo Programático
 
-#### 1. Fundamentos do CFTV
+### 1. Fundamentos do CFTV
 
 O **Circuito Fechado de Televisão (CFTV)** é um **sistema eletrônico de aquisição, transmissão, processamento e exibição de imagens** destinado ao monitoramento de ambientes internos ou externos de forma controlada. Trata-se de um subsistema amplamente empregado em **infraestruturas de segurança eletrônica e automação predial**, cuja principal característica é o **acesso restrito** às imagens captadas, diferindo fundamentalmente das transmissões públicas de televisão.
 
 O CFTV é composto, em sua essência, por **câmeras de vigilância**, **meios de transmissão de sinal (cabeamento ou rede IP)**, **dispositivos de gravação (DVR ou NVR)** e **monitores de visualização**. Cada elemento desempenha uma função técnica específica, garantindo a integridade do sinal, a qualidade da imagem e a disponibilidade contínua das informações captadas.
 
-
-#### **Conceito e Diferença entre Circuito Aberto e Circuito Fechado**
+#### Conceito e Diferença entre Circuito Aberto e Circuito Fechado
 
 Do ponto de vista técnico, o termo “**circuito fechado**” indica que o sistema opera em uma **rede de comunicação isolada e controlada**, sem difusão pública do sinal.  
 Essa característica proporciona **segurança de dados, estabilidade de transmissão e privacidade operacional**.
@@ -70,7 +111,7 @@ Essa característica proporciona **segurança de dados, estabilidade de transmis
 Em sistemas modernos, esse “fechamento” pode ser físico (cabos coaxiais dedicados) ou lógico (rede IP segmentada e protegida por protocolos de autenticação e criptografia).  
 A topologia do sistema pode variar entre **ponto a ponto, estrela ou rede híbrida**, dependendo da infraestrutura e da complexidade do projeto.
 
-#### **Finalidades Técnicas e Operacionais do CFTV**
+#### Finalidades Técnicas e Operacionais do CFTV
 
 O CFTV tem como objetivo principal **aumentar a capacidade de supervisão e controle sobre ambientes e processos**, servindo como uma ferramenta de apoio à **segurança patrimonial, industrial e operacional**.
 
@@ -82,7 +123,7 @@ Principais aplicações técnicas:
 - **Supervisão remota:** monitoramento de filiais, subestações ou áreas externas por meio de redes IP seguras e conexões criptografadas.  
 - **Registro e arquivamento técnico:** armazenamento das imagens em mídias digitais (HD, SSD, NAS ou nuvem) para fins de rastreabilidade e conformidade normativa.
 
-####  **Importância do CFTV na Segurança Eletrônica**
+####  Importância do CFTV na Segurança Eletrônica
 
 Sob a ótica da engenharia elétrica e de sistemas, o CFTV representa a convergência entre **eletrônica, telecomunicações e tecnologia da informação**.  
 A correta implementação do sistema envolve:
@@ -100,6 +141,11 @@ Além do aspecto técnico, é indispensável a observância às **normas de priv
 O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade da comunicação entre câmeras e gravadores.
 
 #### Cabo Coaxial
+
+<div style="text-align:center;">
+     <img src="img/cabo_coaxial.jpg" alt="coaxial" style="width:40%;">
+</div>
+
 - Utilizado principalmente em sistemas analógicos (DVR).  
 - Transmite sinal de vídeo composto.  
 - Tipos comuns: **RG59** e **RG6**.  
@@ -107,6 +153,11 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Pode incluir alimentação integrada (cabo 3 em 1).  
 
 #### Cabo UTP (Unshielded Twisted Pair)
+
+<div style="text-align:center;">
+     <img src="img/cabo_upt.jpg" alt="utp" style="width:40%;">
+</div>
+
 - Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
 - Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
@@ -144,6 +195,7 @@ As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, de
 Os gravadores são responsáveis por armazenar, processar e disponibilizar as imagens captadas pelas câmeras.
 
 #### DVR (Digital Video Recorder)
+
 - Utilizado em sistemas **analógicos**.  
 - Conecta-se às câmeras por cabo coaxial.  
 - Converte o sinal analógico para digital e armazena em HD interno.  
@@ -151,6 +203,7 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 - Alguns modelos possuem acesso remoto via internet.  
 
 #### NVR (Network Video Recorder)
+
 - Utilizado em sistemas **IP**.  
 - Conecta-se às câmeras via rede (Ethernet).  
 - Recebe os sinais já digitalizados.  
@@ -162,7 +215,6 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 ## **Características do DVR hibrido Hikvision s DS-7108HGHI-K1**
 
 <img src="img/dvr.jpg" alt="DVR" width="40%">
-
 
 | **Item** | **Descrição** |
 |-----------|----------------|
@@ -204,6 +256,7 @@ Esses recursos otimizam a vigilância, reduzem falsos alarmes e permitem respost
 ---
 
 #### **Internet das Coisas (IoT)**
+
 Com a integração ao conceito de **IoT (Internet of Things)**, o CFTV passou a ser parte ativa de um ecossistema de dispositivos conectados.  
 As câmeras IP modernas podem se comunicar com sensores, alarmes, controladores e sistemas de automação predial, criando uma rede inteligente de segurança.  
 Exemplos de aplicações:
@@ -217,9 +270,11 @@ A integração via protocolos como **MQTT, ONVIF e Modbus** permite a interopera
 ---
 
 #### **Armazenamento e Monitoramento em Nuvem**
+
 O uso da **computação em nuvem** revolucionou a forma como as imagens são armazenadas e acessadas.  
 Antes restritos a discos rígidos locais, os sistemas atuais podem gravar e gerenciar vídeos remotamente com segurança e escalabilidade.  
 Principais vantagens:
+
 - **Acesso remoto** às imagens em tempo real de qualquer lugar.  
 - **Backup automático** e redundância de dados.  
 - **Redução de custos com infraestrutura física de armazenamento.**  
@@ -231,6 +286,7 @@ A nuvem também facilita a **centralização do monitoramento**, permitindo que 
 ---
 
 #### **Integração com Automação Predial e Controle de Acesso**
+
 O CFTV moderno não atua de forma isolada — ele faz parte de um sistema unificado de **gestão predial e segurança eletrônica**.  
 A integração com sistemas de **automação predial** e **controle de acesso** permite:
 - Sincronização entre câmeras e **leitores biométricos, catracas e fechaduras eletrônicas**.  
@@ -243,6 +299,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 ---
 
 ## Metodologia
+
 1. Aula teórica com exposição dos conceitos.  
 2. Demonstração prática de cabeamento coaxial e UTP.  
 3. Montagem de um sistema com câmeras analógicas e IP.  
@@ -251,19 +308,21 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 ---
 
 ## Recursos Didáticos
+
 - Kit de CFTV (câmeras analógicas e IP, DVR, cabos, conectores).
 - Configuração de app para acesso ao Sistema de CFTV
 - Acesso à internet e rede local.  
 - Projetor multimídia e quadro branco.  
 
 ---
-##  **Parte Prática**
+
+##  Parte Prática
 
 Nesta atividade, o aluno deverá **montar, configurar e testar um sistema completo de CFTV híbrido**, utilizando câmeras analógicas e IP, cabeamento adequado e integração com aplicativo de monitoramento móvel.  O objetivo é compreender na prática os **conceitos de instalação, conectividade e operação de sistemas de vigilância eletrônica**.
 
 ---
 
-###  **Procedimentos**
+###  Procedimentos
 
 1. **Montagem do Cabeamento Coaxial**  
    - Confeccionar e instalar **cabos coaxiais RG59** entre as **cinco câmeras analógicas** instaladas nos boxes e o **DVR Hikvision**.  
@@ -281,15 +340,18 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
 
    <div style="text-align:center;">
-     <img src="img/dvr.jpg" alt="DVR Hikvision" style="width:60%;">
+     <img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
    </div>
 
 4. **Configuração do Aplicativo de Monitoramento**  
    - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
    - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.
-# 📘 **Guia de Inicialização e Configuração – DVR/NVR Hikvision**
 
-## ⚙️ **Inicialização (Startup)**
+---
+
+##  Guia de Inicialização e Configuração – DVR/NVR Hikvision
+
+###  Inicialização (Startup)
 
 Uma inicialização correta é essencial para **aumentar a vida útil do DVR/NVR** e garantir seu funcionamento adequado.
 
@@ -300,13 +362,14 @@ Uma inicialização correta é essencial para **aumentar a vida útil do DVR/NVR
 
 ---
 
-## 🔑 **Ativação do Dispositivo**
+###  Ativação do Dispositivo
 
 Antes da ativação, **nenhuma operação é permitida**.  
 Na primeira vez que o equipamento for acessado, será necessário **definir uma senha de administrador (admin)** para ativação do sistema.  
 A ativação também pode ser realizada via **navegador web, software SADP** ou **cliente Hikvision iVMS**.
 
 **Passos para ativar o dispositivo:**
+
 1. Insira uma **nova senha** e confirme-a.  
 2. *(Opcional)* Configure um **e-mail de recuperação**, **Hik-Connect**, **perguntas de segurança** ou **exporte o GUID** para redefinição de senha futura.  
 3. Configure a senha para **ativar as câmeras IP** conectadas ao dispositivo.  
@@ -314,36 +377,38 @@ A ativação também pode ser realizada via **navegador web, software SADP** ou 
 
 ---
 
-## **Configurações de Rede (Network Settings)**
+###  Configurações de Rede (Network Settings)
 
 Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os parâmetros de rede**.
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Network > General`  
    ou `System > Network > TCP/IP`  
    ou `System > System Settings > Network > Network > TCP/IP`.  
 2. Configure os **parâmetros de rede** (IP, máscara, gateway e DNS).
-   #### **Configurações de rede do DVR**
-
-      | Parâmetro | Valor |
-      |------------|--------|
-      | **IP** | 10.240.240.30 |
-      | **Gateway padrão** | 10.240.240.1 |
-      | **Máscara de sub-rede** | 255.255.255.0 |
-      | **Usuário** | admin |
-      | **senha** | deecefet |
    
-4. Salve as configurações.
+####  Configurações de rede do DVR
 
+| Parâmetro | Valor |
+|------------|--------|
+| **IP** | 10.240.240.30 |
+| **Gateway padrão** | 10.240.240.1 |
+| **Máscara de sub-rede** | 255.255.255.0 |
+| **Usuário** | admin |
+| **senha** | deecefet |
+   
+3. Salve as configurações.
 
 ---
 
-## **Adicionar Câmeras IP (Add Network Camera)**
+### Adicionar Câmeras IP (Add Network Camera)
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Camera`  
    ou `System > Device Access > Device > Video Device`.  
@@ -354,15 +419,16 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-## **Configuração do Hik-Connect**
+### Configuração do Hik-Connect
 
 O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
 
 <div style="text-align:center;">
-     <img src="img/qrcode.jpg" alt="QR Code" style="width:60%;">
- </div>
+     <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
+</div>
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Network > Hik-Connect`  
    ou `System > Network > Advanced > Platform Access`.  
@@ -377,12 +443,13 @@ O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acess
 
 ---
 
-## **Configuração de Gravação (Recording Settings)**
+### Configuração de Gravação (Recording Settings)
 
 Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** está corretamente instalado ou adicionado ao sistema.  
 Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
 
 **Para editar o agendamento de gravação:**
+
 1. Acesse:  
    `Configuration > Record > Schedule`  
    ou `System > Storage Management > Storage Schedule > Video Recording`.  
@@ -393,30 +460,33 @@ Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após 
 
 ---
 
-## **Reprodução (Playback)**
+### Reprodução (Playback)
 
 Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
 
 **Passos:**
+
 1. Acesse o menu **Playback**.  
 2. Selecione uma ou mais **câmeras** na lista.  
 3. Clique duas vezes na **data desejada** no calendário.  
 4. Utilize a **barra de ferramentas inferior** para controlar a reprodução (play, pause, avanço rápido, captura de imagem, zoom digital, etc.).
 
 > Consulte o manual do usuário para instruções detalhadas sobre os modos de reprodução disponíveis.
-     
-### 5. **Conexão ao Sistema Local do Laboratório**
+
+---
+
+##  Conexão ao Sistema Local do Laboratório
 
 - Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
 - Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
 - Configurar o **acesso direto (LAN)** no aplicativo **Hik-Connect**, utilizando o **endereço IP do DVR** e as **credenciais de login** fornecidas pelo professor.  
 
-### **Rede Local do Laboratório de Instalações Elétricas Prediais (LIEP)**
+### Rede Local do Laboratório de Instalações Elétricas Prediais (LIEP)
 
 O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
 Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
 
-#### **Configurações da Rede Local (DHCP)**
+#### Configurações da Rede Local (DHCP)
 
 | Parâmetro | Valor |
 |------------|--------|
@@ -424,7 +494,7 @@ Essa rede é destinada **exclusivamente à conexão de equipamentos internos** u
 | **Gateway padrão** | 10.240.240.1 |
 | **Máscara de sub-rede** | 255.255.255.0 |
 
-#### *Configurações da Rede Wi-Fi do Laboratório**
+#### Configurações da Rede Wi-Fi do Laboratório
 
 | Parâmetro | Valor |
 |------------|--------|
@@ -435,13 +505,11 @@ Essa rede é destinada **exclusivamente à conexão de equipamentos internos** u
 > ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
 > Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
 
-
-6. **Teste de Visualização e Gravação**  
-   - Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
-   - Testar a **gravação e reprodução** de imagens no DVR.  
-   - Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
-
 ---
 
+##  Teste de Visualização e Gravação
+- Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
+- Testar a **gravação e reprodução** de imagens no DVR.  
+- Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
 
-
+---
