@@ -1,11 +1,10 @@
-# Disciplina: PLIEP
+**Departamento de Engenharia Elétrica do CEFET-MG Campus NG**
 
-# Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
+**Coordenação do Curso Técnico de Eletrotécnica**
 
-## Curso
-Técnico em Eletrotécnica – 2º Ano  
-CEFET-MG
+**Laboratório de Instalações Elétricas Prediais - PLIEP**
 
+**Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)**
 
 ## Carga Horária
 2 horas-aula
