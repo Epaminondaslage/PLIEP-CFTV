@@ -1,11 +1,9 @@
-# Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
-
 <img src="img/cftv.jpg" alt="CFTV" width="80%">
 
 **Departamento de Engenharia Elétrica do CEFET-MG Campus NG**  
 **Coordenação do Curso Técnico de Eletrotécnica**  
 **Laboratório de Instalações Elétricas Prediais - PLIEP**  
-
+## Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 ---
 
 ## Sumário
@@ -143,6 +141,7 @@ Além do aspecto técnico, é indispensável a observância às **normas de priv
 O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade da comunicação entre câmeras e gravadores.
 
 #### Cabo Coaxial
+
 - Utilizado principalmente em sistemas analógicos (DVR).  
 - Transmite sinal de vídeo composto.  
 - Tipos comuns: **RG59** e **RG6**.  
@@ -150,6 +149,7 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Pode incluir alimentação integrada (cabo 3 em 1).  
 
 #### Cabo UTP (Unshielded Twisted Pair)
+
 - Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
 - Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
@@ -187,6 +187,7 @@ As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, de
 Os gravadores são responsáveis por armazenar, processar e disponibilizar as imagens captadas pelas câmeras.
 
 #### DVR (Digital Video Recorder)
+
 - Utilizado em sistemas **analógicos**.  
 - Conecta-se às câmeras por cabo coaxial.  
 - Converte o sinal analógico para digital e armazena em HD interno.  
@@ -194,6 +195,7 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 - Alguns modelos possuem acesso remoto via internet.  
 
 #### NVR (Network Video Recorder)
+
 - Utilizado em sistemas **IP**.  
 - Conecta-se às câmeras via rede (Ethernet).  
 - Recebe os sinais já digitalizados.  
@@ -246,6 +248,7 @@ Esses recursos otimizam a vigilância, reduzem falsos alarmes e permitem respost
 ---
 
 #### **Internet das Coisas (IoT)**
+
 Com a integração ao conceito de **IoT (Internet of Things)**, o CFTV passou a ser parte ativa de um ecossistema de dispositivos conectados.  
 As câmeras IP modernas podem se comunicar com sensores, alarmes, controladores e sistemas de automação predial, criando uma rede inteligente de segurança.  
 Exemplos de aplicações:
@@ -259,9 +262,11 @@ A integração via protocolos como **MQTT, ONVIF e Modbus** permite a interopera
 ---
 
 #### **Armazenamento e Monitoramento em Nuvem**
+
 O uso da **computação em nuvem** revolucionou a forma como as imagens são armazenadas e acessadas.  
 Antes restritos a discos rígidos locais, os sistemas atuais podem gravar e gerenciar vídeos remotamente com segurança e escalabilidade.  
 Principais vantagens:
+
 - **Acesso remoto** às imagens em tempo real de qualquer lugar.  
 - **Backup automático** e redundância de dados.  
 - **Redução de custos com infraestrutura física de armazenamento.**  
@@ -273,6 +278,7 @@ A nuvem também facilita a **centralização do monitoramento**, permitindo que 
 ---
 
 #### **Integração com Automação Predial e Controle de Acesso**
+
 O CFTV moderno não atua de forma isolada — ele faz parte de um sistema unificado de **gestão predial e segurança eletrônica**.  
 A integração com sistemas de **automação predial** e **controle de acesso** permite:
 - Sincronização entre câmeras e **leitores biométricos, catracas e fechaduras eletrônicas**.  
@@ -285,6 +291,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 ---
 
 ## Metodologia
+
 1. Aula teórica com exposição dos conceitos.  
 2. Demonstração prática de cabeamento coaxial e UTP.  
 3. Montagem de um sistema com câmeras analógicas e IP.  
@@ -293,6 +300,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 ---
 
 ## Recursos Didáticos
+
 - Kit de CFTV (câmeras analógicas e IP, DVR, cabos, conectores).
 - Configuração de app para acesso ao Sistema de CFTV
 - Acesso à internet e rede local.  
@@ -353,6 +361,7 @@ Na primeira vez que o equipamento for acessado, será necessário **definir uma 
 A ativação também pode ser realizada via **navegador web, software SADP** ou **cliente Hikvision iVMS**.
 
 **Passos para ativar o dispositivo:**
+
 1. Insira uma **nova senha** e confirme-a.  
 2. *(Opcional)* Configure um **e-mail de recuperação**, **Hik-Connect**, **perguntas de segurança** ou **exporte o GUID** para redefinição de senha futura.  
 3. Configure a senha para **ativar as câmeras IP** conectadas ao dispositivo.  
@@ -365,6 +374,7 @@ A ativação também pode ser realizada via **navegador web, software SADP** ou 
 Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os parâmetros de rede**.
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Network > General`  
    ou `System > Network > TCP/IP`  
@@ -381,7 +391,7 @@ Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os p
 | **Usuário** | admin |
 | **senha** | deecefet |
    
-4. Salve as configurações.
+3. Salve as configurações.
 
 ---
 
@@ -390,6 +400,7 @@ Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os p
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Camera`  
    ou `System > Device Access > Device > Video Device`.  
@@ -409,6 +420,7 @@ O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acess
 </div>
 
 **Passos:**
+
 1. Acesse:  
    `Configuration > Network > Hik-Connect`  
    ou `System > Network > Advanced > Platform Access`.  
@@ -429,6 +441,7 @@ Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** es
 Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
 
 **Para editar o agendamento de gravação:**
+
 1. Acesse:  
    `Configuration > Record > Schedule`  
    ou `System > Storage Management > Storage Schedule > Video Recording`.  
@@ -444,6 +457,7 @@ Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após 
 Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
 
 **Passos:**
+
 1. Acesse o menu **Playback**.  
 2. Selecione uma ou mais **câmeras** na lista.  
 3. Clique duas vezes na **data desejada** no calendário.  
