@@ -113,6 +113,7 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 #### Crimpar e testar o  conector RJ45 
 
 [Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
+
 ---
 
 ### 3. Tipos de Câmeras
