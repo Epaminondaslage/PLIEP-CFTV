@@ -7,7 +7,7 @@ Técnico em Eletrotécnica – 2º Ano
 CEFET-MG
 
 
-## 🕒 Carga Horária
+## Carga Horária
 2 horas-aula
 
 ---
@@ -34,7 +34,7 @@ Nesta aula, os alunos irão compreender os princípios de funcionamento, os comp
 
 ---
 
-## 📚 Conteúdo Programático
+## Conteúdo Programático
 
 ### 1. Fundamentos do CFTV
 
@@ -130,7 +130,7 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 - Oferece funções de gravação, reprodução, busca e exportação de vídeos.  
 - Alguns modelos possuem acesso remoto via internet.  
 
-#### 🖥️ NVR (Network Video Recorder)
+#### NVR (Network Video Recorder)
 - Utilizado em sistemas **IP**.  
 - Conecta-se às câmeras via rede (Ethernet).  
 - Recebe os sinais já digitalizados.  
@@ -170,7 +170,7 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 
 Os sistemas de **CFTV modernos** evoluíram significativamente com o avanço da tecnologia digital, passando de soluções isoladas de gravação local para plataformas inteligentes e integradas com outros sistemas de segurança e automação. Essa evolução trouxe ganhos expressivos em desempenho, segurança, conectividade e análise inteligente das imagens.
 
-#### 🤖 **Inteligência Artificial (IA)**
+#### **Inteligência Artificial (IA)**
 A introdução da **IA** nos sistemas de CFTV transformou a forma de monitorar e interpretar eventos.  
 As câmeras e gravadores atuais utilizam **processamento de vídeo inteligente (IVA – Intelligent Video Analytics)** para reconhecer padrões e automatizar decisões.  
 Principais aplicações:
@@ -226,8 +226,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 1. Aula teórica com exposição dos conceitos.  
 2. Demonstração prática de cabeamento coaxial e UTP.  
 3. Montagem de um sistema com câmeras analógicas e IP.  
-4. Configuração e teste de DVR e NVR em bancada.  
-
+4. Configuração e teste de DVR e NVR em bancada.
 
 ---
 
