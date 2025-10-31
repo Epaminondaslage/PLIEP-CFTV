@@ -281,7 +281,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
 
    <div style="text-align:center;">
-     <img src="img/dvr.jpg" alt="DVR Hikvision" style="width:60%;">
+     <img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
    </div>
 
 4. **Configuração do Aplicativo de Monitoramento**  
