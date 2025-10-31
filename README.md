@@ -1,5 +1,5 @@
 
-<img src="img/cftv.jpg" alt="CFTV" width="40%">
+<img src="img/cftv.jpg" alt="CFTV" width="80%">
 
 **Departamento de Engenharia Elétrica do CEFET-MG Campus NG**
 
