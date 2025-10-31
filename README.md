@@ -108,8 +108,11 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
 - Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
 - Conectores: **RJ45**.  
-- Vantagens: menor custo, flexibilidade e facilidade de instalação.  
+- Vantagens: menor custo, flexibilidade e facilidade de instalação.
+  
+#### Crimpar e testar o  conector RJ45 
 
+[Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
 ---
 
 ### 3. Tipos de Câmeras
