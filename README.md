@@ -1,13 +1,11 @@
-# PLIEP-CFTV
+# Disciplina: PLIEP
 
-# Plano de Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
+# Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 
-## 🏫 Curso
+## Curso
 Técnico em Eletrotécnica – 2º Ano  
 CEFET-MG
 
-## Unidade Curricular
-Sistemas de Segurança Eletrônica
 
 ## 🕒 Carga Horária
 2 horas-aula
