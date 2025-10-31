@@ -359,7 +359,7 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
 
 <div style="text-align:center;">
-     <img src="img/qrcode.jpg" alt="QR Code" style="width:60%;">
+     <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
  </div>
 
 **Passos:**
