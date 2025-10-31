@@ -142,6 +142,10 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 
 #### Cabo Coaxial
 
+<div style="text-align:center;">
+     <img src="img/cabo_coaxial.jpg" alt="coaxial" style="width:40%;">
+</div>
+
 - Utilizado principalmente em sistemas analógicos (DVR).  
 - Transmite sinal de vídeo composto.  
 - Tipos comuns: **RG59** e **RG6**.  
@@ -149,6 +153,10 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 - Pode incluir alimentação integrada (cabo 3 em 1).  
 
 #### Cabo UTP (Unshielded Twisted Pair)
+
+<div style="text-align:center;">
+     <img src="img/cabo_upt.jpg" alt="utp" style="width:40%;">
+</div>
 
 - Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
