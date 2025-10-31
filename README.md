@@ -287,9 +287,9 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 4. **Configuração do Aplicativo de Monitoramento**  
    - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
    - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.
-# 📘 **Guia de Inicialização e Configuração – DVR/NVR Hikvision**
+####  **Guia de Inicialização e Configuração – DVR/NVR Hikvision**
 
-## ⚙️ **Inicialização (Startup)**
+###  **Inicialização (Startup)**
 
 Uma inicialização correta é essencial para **aumentar a vida útil do DVR/NVR** e garantir seu funcionamento adequado.
 
@@ -300,7 +300,7 @@ Uma inicialização correta é essencial para **aumentar a vida útil do DVR/NVR
 
 ---
 
-## 🔑 **Ativação do Dispositivo**
+###  **Ativação do Dispositivo**
 
 Antes da ativação, **nenhuma operação é permitida**.  
 Na primeira vez que o equipamento for acessado, será necessário **definir uma senha de administrador (admin)** para ativação do sistema.  
@@ -314,7 +314,7 @@ A ativação também pode ser realizada via **navegador web, software SADP** ou 
 
 ---
 
-## **Configurações de Rede (Network Settings)**
+#### **Configurações de Rede (Network Settings)**
 
 Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os parâmetros de rede**.
 
@@ -339,7 +339,7 @@ Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os p
 
 ---
 
-## **Adicionar Câmeras IP (Add Network Camera)**
+### **Adicionar Câmeras IP (Add Network Camera)**
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
@@ -354,7 +354,7 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-## **Configuração do Hik-Connect**
+### **Configuração do Hik-Connect**
 
 O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
 
@@ -377,7 +377,7 @@ O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acess
 
 ---
 
-## **Configuração de Gravação (Recording Settings)**
+### **Configuração de Gravação (Recording Settings)**
 
 Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** está corretamente instalado ou adicionado ao sistema.  
 Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
@@ -393,7 +393,7 @@ Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após 
 
 ---
 
-## **Reprodução (Playback)**
+### **Reprodução (Playback)**
 
 Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
 
