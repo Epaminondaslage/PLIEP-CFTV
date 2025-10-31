@@ -1,86 +1,168 @@
 # PLIEP-CFTV
 
-O objetivo deste conteúdo é proporcionar ao aluno do segundo nao do curso de Eletrotécinica do CEFET-MG, uma compreensão abrangente sobre os Sistemas de Circuito Fechado de Televisão (CFTV), abordando desde os conceitos básicos até as tecnologias avançadas e suas aplicações práticas.  
+# 🧠 Plano de Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 
-Os sistemas de CFTV são fundamentais para a segurança moderna, oferecendo monitoramento e registro de eventos. Com avanços tecnológicos como IA e IoT, os sistemas de CFTV estão se tornando mais sofisticados e eficientes, proporcionando um nível de segurança e controle.
+## 🏫 Curso
+Técnico em Eletrotécnica – 2º Ano  
+CEFET-MG
 
-### Objetivos:
+## 🧩 Unidade Curricular
+Sistemas de Segurança Eletrônica
 
-Introduzir os Componentes Básicos: Familiarizar os alunos com os elementos essenciais de um sistema de CFTV, incluindo câmeras, gravadores, monitores e software de gestão de vídeo.
+## 🕒 Carga Horária
+4 horas-aula
 
-Destacar os Benefícios: Evidenciar como os sistemas de CFTV contribuem para a segurança e o monitoramento, destacando suas vantagens na prevenção de crimes, controle de acesso e integração com outros sistemas de segurança.
+---
 
-Abordar os Desafios e Considerações: Discutir os principais desafios relacionados à implementação e manutenção de sistemas de CFTV, como questões de privacidade, custo e segurança de rede.
+## 🎯 Objetivo Geral
+Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito Fechado de Televisão (CFTV)**, abordando desde seus princípios de funcionamento até as tecnologias mais recentes, capacitando-os para aplicar esse conhecimento em situações reais de segurança eletrônica.
 
-Explorar a Evolução Tecnológica: Apresentar as inovações tecnológicas que estão transformando os sistemas de CFTV, como a inteligência artificial, a Internet das Coisas (IoT) e o armazenamento em nuvem, e como essas tecnologias melhoram a eficácia e eficiência dos sistemas de vigilância.
+---
 
-Preparar para Aplicações Práticas: Capacitar os alunos a aplicar os conhecimentos adquiridos na implementação e gestão de sistemas de CFTV, considerando aspectos técnicos e legais, e preparando-os para enfrentar desafios práticos no campo da segurança eletrônica.
+## 🎯 Objetivos Específicos
+- Reconhecer os componentes básicos de um sistema de CFTV.  
+- Compreender os diferentes **tipos de câmeras analógicas e IP**, seus recursos e aplicações.  
+- Identificar as **formas de cabeamento (coaxial e UTP)** e suas características técnicas.  
+- Diferenciar os equipamentos de gravação **DVR** e **NVR**, compreendendo seu funcionamento e aplicação.  
+- Explorar as inovações tecnológicas que impactam o CFTV, como IA, IoT e armazenamento em nuvem.  
+- Desenvolver habilidades práticas para instalação e configuração de sistemas de CFTV.  
 
-Incentivar a Integração com Sistemas Modernos: Promover a compreensão sobre a importância da integração dos sistemas de CFTV com outras soluções de segurança e automação, visando criar ambientes mais seguros e inteligentes.
+---
 
-### Metodologia
+## 🧭 Introdução
+O **Circuito Fechado de Televisão (CFTV)** é um sistema de vigilância eletrônica que utiliza câmeras conectadas a monitores e gravadores, permitindo o monitoramento de ambientes de forma restrita e controlada.  
+Com o avanço da tecnologia, o CFTV evoluiu de sistemas **analógicos com cabos coaxiais** para **sistemas digitais baseados em rede IP**, integrando-se à **Internet das Coisas (IoT)** e à **Inteligência Artificial (IA)**.  
+Nesta aula, os alunos irão compreender os princípios de funcionamento, os componentes essenciais, os tipos de câmeras, os meios de transmissão de sinal e as boas práticas de instalação e manutenção.
 
-### Para atingir esses objetivos, a abordagem pedagógica incluirá:
+---
 
-* Aula teórica para fundamentação dos conceitos.
-* Estudos de caso reais para análise prática.
-* Demonstrações para experiência prática.
-* Debates e discussões sobre desafios e inovações tecnológicas.
-* Projetos e atividades práticas para aplicar os conhecimentos adquiridos.
+## 📚 Conteúdo Programático
 
+### 1. Fundamentos do CFTV
+- Conceito de CFTV e diferença entre circuito aberto e fechado.  
+- Finalidades do CFTV em segurança, automação e controle de acesso.  
 
-### Sistemas de CFTV (Circuito Fechado de Televisão)
+---
 
-### Definição
+### 2. Formas de Cabeamento
 
-O CFTV (Circuito Fechado de Televisão) é um sistema de vigilância que utiliza câmeras para transmitir imagens para monitores ou gravadores específicos, diferente das transmissões abertas ao público.
-Componentes Básicos
+O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade da comunicação entre câmeras e gravadores.
 
-Câmeras de Segurança:
+#### 🧵 Cabo Coaxial
+- Utilizado principalmente em sistemas analógicos (DVR).  
+- Transmite sinal de vídeo composto.  
+- Tipos comuns: **RG59** e **RG6**.  
+- Conector: **BNC**.  
+- Pode incluir alimentação integrada (cabo 3 em 1).  
 
-        Tipos: Analógicas e IP (Internet Protocol).
-        Formatos: Dome e Bullet.
-        Recursos: Infravermelho para visão noturna, resoluções HD e 4K, PTZ (Pan-Tilt-Zoom).
+#### 🔌 Cabo UTP (Unshielded Twisted Pair)
+- Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
+- Categorias mais usadas: **Cat5e** e **Cat6**.  
+- Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
+- Conectores: **RJ45**.  
+- Vantagens: menor custo, flexibilidade e facilidade de instalação.  
 
-Gravadores:
+---
 
-        DVR (Digital Video Recorder): Para câmeras analógicas.
-        NVR (Network Video Recorder): Para câmeras IP.
-        Armazenamento: Discos rígidos internos ou armazenamento em nuvem.
+### 3. Tipos de Câmeras
 
-Monitores:
+As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, design e recursos.
 
-        Monitores dedicados e dispositivos móveis para visualização remota.
+#### 📷 Câmeras Analógicas
+- Conectadas via cabo coaxial.  
+- Requerem DVR para gravação.  
+- Resolução limitada (SD a Full HD).  
+- Modelos: **Dome**, **Bullet**, **PTZ (Pan-Tilt-Zoom)**.  
+- Usadas em sistemas locais e de menor custo.  
 
-Software de Gestão de Vídeo (VMS):
+#### 🌐 Câmeras IP (Internet Protocol)
+- Conectadas via rede de dados (UTP).  
+- Requerem NVR para gravação e gerenciamento.  
+- Transmitem vídeo digital em alta definição (até 4K).  
+- Possuem recursos inteligentes: detecção de movimento, reconhecimento facial, visão noturna avançada.  
+- Permitem acesso remoto via navegador ou aplicativo móvel.  
 
-        Visualização, gravação e gerenciamento das imagens.
-        Funções avançadas como detecção de movimento e análise de vídeo.
+---
 
-### Benefícios
+### 4. Equipamentos de Gravação
 
-    Segurança e Monitoramento:
-        Prevenção de crimes e monitoramento contínuo.
-        Fornecimento de evidências visuais.
+Os gravadores são responsáveis por armazenar, processar e disponibilizar as imagens captadas pelas câmeras.
 
-    Controle de Acesso:
-        Monitoramento de entradas e saídas.
-        Identificação de visitantes.
+#### 💽 DVR (Digital Video Recorder)
+- Utilizado em sistemas **analógicos**.  
+- Conecta-se às câmeras por cabo coaxial.  
+- Converte o sinal analógico para digital e armazena em HD interno.  
+- Oferece funções de gravação, reprodução, busca e exportação de vídeos.  
+- Alguns modelos possuem acesso remoto via internet.  
 
-    Automação e Integração:
-        Integração com alarmes e sistemas de controle de acesso.
-        Automação de respostas a eventos específicos.
+#### 🖥️ NVR (Network Video Recorder)
+- Utilizado em sistemas **IP**.  
+- Conecta-se às câmeras via rede (Ethernet).  
+- Recebe os sinais já digitalizados.  
+- Suporta gravação em alta resolução e múltiplos canais IP.  
+- Integra-se a redes PoE e armazenamento em nuvem.  
 
-### Desafios e Considerações
+---
 
-* Privacidade: Cumprimento de leis e regulamentações de privacidade.
-    Custo: Investimento inicial e custos de manutenção.
-    Segurança da Rede: Proteção contra acessos não autorizados e ataques cibernéticos.
+### 5. Evolução Tecnológica e Integração
+- **IA:** reconhecimento facial, contagem de pessoas, detecção de comportamento.  
+- **IoT:** integração com sensores e sistemas automatizados.  
+- **Nuvem:** monitoramento remoto e armazenamento seguro.  
+- **Integração com automação predial** e controle de acesso.  
 
-### Evolução Tecnológica
+---
 
-* Inteligência Artificial: Reconhecimento facial e análise comportamental.
-    IoT (Internet das Coisas): Integração com dispositivos conectados.
-    Armazenamento em Nuvem: Acesso remoto e escalabilidade.
+## 🧪 Metodologia
+1. Aula teórica com exposição dos conceitos.  
+2. Demonstração prática de cabeamento coaxial e UTP.  
+3. Montagem de um sistema com câmeras analógicas e IP.  
+4. Configuração e teste de DVR e NVR em bancada.  
+5. Discussão sobre boas práticas e desafios técnicos.  
+6. Elaboração de relatório técnico da prática.  
 
+---
+
+## 🧰 Recursos Didáticos
+- Kits de CFTV (câmeras analógicas e IP, DVR, NVR, cabos, conectores).  
+- Computadores com software de VMS (Video Management System).  
+- Acesso à internet e rede local.  
+- Projetor multimídia e quadro branco.  
+
+---
+
+## 🧾 Avaliação
+- Participação e desempenho nas atividades práticas.  
+- Identificação correta dos componentes e cabeamentos.  
+- Montagem e configuração funcional do sistema de CFTV.  
+- Relatório técnico final com justificativa de escolhas e análise de desempenho.  
+
+---
+
+## 🧩 Competências e Habilidades
+**Competências:**
+- Instalar e configurar sistemas de segurança eletrônica.  
+- Analisar o funcionamento e desempenho de sistemas de CFTV.  
+- Aplicar normas técnicas e boas práticas de cabeamento estruturado.  
+
+**Habilidades:**
+- Montar e testar redes coaxiais e UTP.  
+- Configurar câmeras analógicas e IP.  
+- Operar DVRs e NVRs com software de gestão.  
+- Identificar falhas e realizar manutenção preventiva.  
+
+---
+
+## 🔍 Resultados Esperados
+Ao final da aula prática, o aluno deverá ser capaz de:
+- Diferenciar câmeras analógicas e IP e seus modos de conexão.  
+- Instalar corretamente cabos coaxiais e UTP.  
+- Configurar DVRs e NVRs para gravação e monitoramento.  
+- Integrar sistemas de CFTV com redes e dispositivos de automação.  
+- Reconhecer os avanços tecnológicos aplicados à segurança eletrônica.  
+
+---
+
+📅 **Professor:** _______________________________________  
+👨‍🏫 **Data:** ____ / ____ / ______  
+📋 **Turma:** ___________________________  
 
