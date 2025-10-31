@@ -1,16 +1,16 @@
 # PLIEP-CFTV
 
-# 🧠 Plano de Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
+# Plano de Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 
 ## 🏫 Curso
 Técnico em Eletrotécnica – 2º Ano  
 CEFET-MG
 
-## 🧩 Unidade Curricular
+## Unidade Curricular
 Sistemas de Segurança Eletrônica
 
 ## 🕒 Carga Horária
-4 horas-aula
+2 horas-aula
 
 ---
 
@@ -29,7 +29,7 @@ Proporcionar aos alunos uma compreensão abrangente dos **Sistemas de Circuito F
 
 ---
 
-## 🧭 Introdução
+## Introdução
 O **Circuito Fechado de Televisão (CFTV)** é um sistema de vigilância eletrônica que utiliza câmeras conectadas a monitores e gravadores, permitindo o monitoramento de ambientes de forma restrita e controlada.  
 Com o avanço da tecnologia, o CFTV evoluiu de sistemas **analógicos com cabos coaxiais** para **sistemas digitais baseados em rede IP**, integrando-se à **Internet das Coisas (IoT)** e à **Inteligência Artificial (IA)**.  
 Nesta aula, os alunos irão compreender os princípios de funcionamento, os componentes essenciais, os tipos de câmeras, os meios de transmissão de sinal e as boas práticas de instalação e manutenção.
@@ -48,14 +48,14 @@ Nesta aula, os alunos irão compreender os princípios de funcionamento, os comp
 
 O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade da comunicação entre câmeras e gravadores.
 
-#### 🧵 Cabo Coaxial
+#### Cabo Coaxial
 - Utilizado principalmente em sistemas analógicos (DVR).  
 - Transmite sinal de vídeo composto.  
 - Tipos comuns: **RG59** e **RG6**.  
 - Conector: **BNC**.  
 - Pode incluir alimentação integrada (cabo 3 em 1).  
 
-#### 🔌 Cabo UTP (Unshielded Twisted Pair)
+#### Cabo UTP (Unshielded Twisted Pair)
 - Utilizado em sistemas de câmeras IP e também em analógicas com baluns.  
 - Categorias mais usadas: **Cat5e** e **Cat6**.  
 - Permite transmissão de dados e alimentação via **PoE (Power over Ethernet)**.  
@@ -68,14 +68,14 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 
 As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, design e recursos.
 
-#### 📷 Câmeras Analógicas
+#### Câmeras Analógicas
 - Conectadas via cabo coaxial.  
 - Requerem DVR para gravação.  
 - Resolução limitada (SD a Full HD).  
 - Modelos: **Dome**, **Bullet**, **PTZ (Pan-Tilt-Zoom)**.  
 - Usadas em sistemas locais e de menor custo.  
 
-#### 🌐 Câmeras IP (Internet Protocol)
+#### Câmeras IP (Internet Protocol)
 - Conectadas via rede de dados (UTP).  
 - Requerem NVR para gravação e gerenciamento.  
 - Transmitem vídeo digital em alta definição (até 4K).  
@@ -88,7 +88,7 @@ As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, de
 
 Os gravadores são responsáveis por armazenar, processar e disponibilizar as imagens captadas pelas câmeras.
 
-#### 💽 DVR (Digital Video Recorder)
+#### DVR (Digital Video Recorder)
 - Utilizado em sistemas **analógicos**.  
 - Conecta-se às câmeras por cabo coaxial.  
 - Converte o sinal analógico para digital e armazena em HD interno.  
@@ -104,9 +104,9 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 
 ---
 
-## 🔧 **Características do DVR hibrido Hikvision s DS-7108HGHI-K1**
+## **Características do DVR hibrido Hikvision s DS-7108HGHI-K1**
 
-<img src="i/img/dvr.jpg" alt="DVR" width="60%">
+<img src="img/dvr.jpg" alt="DVR" width="60%">
 
 
 | **Item** | **Descrição** |
@@ -148,7 +148,7 @@ Esses recursos otimizam a vigilância, reduzem falsos alarmes e permitem respost
 
 ---
 
-#### 🌐 **Internet das Coisas (IoT)**
+#### **Internet das Coisas (IoT)**
 Com a integração ao conceito de **IoT (Internet of Things)**, o CFTV passou a ser parte ativa de um ecossistema de dispositivos conectados.  
 As câmeras IP modernas podem se comunicar com sensores, alarmes, controladores e sistemas de automação predial, criando uma rede inteligente de segurança.  
 Exemplos de aplicações:
@@ -161,7 +161,7 @@ A integração via protocolos como **MQTT, ONVIF e Modbus** permite a interopera
 
 ---
 
-#### ☁️ **Armazenamento e Monitoramento em Nuvem**
+#### **Armazenamento e Monitoramento em Nuvem**
 O uso da **computação em nuvem** revolucionou a forma como as imagens são armazenadas e acessadas.  
 Antes restritos a discos rígidos locais, os sistemas atuais podem gravar e gerenciar vídeos remotamente com segurança e escalabilidade.  
 Principais vantagens:
@@ -175,7 +175,7 @@ A nuvem também facilita a **centralização do monitoramento**, permitindo que 
 
 ---
 
-#### 🏢 **Integração com Automação Predial e Controle de Acesso**
+#### **Integração com Automação Predial e Controle de Acesso**
 O CFTV moderno não atua de forma isolada — ele faz parte de um sistema unificado de **gestão predial e segurança eletrônica**.  
 A integração com sistemas de **automação predial** e **controle de acesso** permite:
 - Sincronização entre câmeras e **leitores biométricos, catracas e fechaduras eletrônicas**.  
@@ -187,7 +187,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 
 ---
 
-## 🧪 Metodologia
+## Metodologia
 1. Aula teórica com exposição dos conceitos.  
 2. Demonstração prática de cabeamento coaxial e UTP.  
 3. Montagem de um sistema com câmeras analógicas e IP.  
@@ -196,7 +196,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 
 ---
 
-## 🧰 Recursos Didáticos
+## Recursos Didáticos
 - Kit de CFTV (câmeras analógicas e IP, DVR, cabos, conectores).
 - Configuração de app para acesso ao Sistema de CFTV
 - Acesso à internet e rede local.  
@@ -204,7 +204,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 
 ---
 
-## 🧩 Competências e Habilidades
+## Competências e Habilidades
 **Competências:**
 - Instalar e configurar sistemas de segurança eletrônica.  
 - Analisar o funcionamento e desempenho de sistemas de CFTV.  
@@ -218,7 +218,7 @@ Essa integração amplia o conceito de **edifício inteligente**, combinando **s
 
 ---
 
-## 🔍 Resultados Esperados
+## Resultados Esperados
 Ao final da aula prática, o aluno deverá ser capaz de:
 - Diferenciar câmeras analógicas e IP e seus modos de conexão.  
 - Instalar corretamente cabos coaxiais e UTP.  
