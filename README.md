@@ -5,9 +5,9 @@
 **Laboratório de Instalações Elétricas Prediais - PLIEP**  
 ## Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 ---
-## 📚 Sumário
 
-- [Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)](#aula-prática--sistemas-de-circuito-fechado-de-televisão-cftv)
+##  Sumário
+
 - [Carga Horária](#carga-horária)
 - [🎯 Objetivo Geral](#-objetivo-geral)
 - [🎯 Objetivos Específicos](#-objetivos-específicos)
@@ -328,7 +328,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 
 ###  Procedimentos
 
-1. **Montagem do Cabeamento Coaxial**  
+### Montagem do Cabeamento Coaxial
    - Confeccionar e instalar **cabos coaxiais RG59** entre as **cinco câmeras analógicas** instaladas nos boxes e o **DVR Hikvision**.  
    - Certificar-se de que os conectores **BNC** estão corretamente prensados e identificados.  
    - Verificar continuidade e integridade dos cabos antes da conexão final.
