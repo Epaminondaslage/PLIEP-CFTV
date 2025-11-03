@@ -367,6 +367,9 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 ---
 
 ### 5-Conexão do celular ao Sistema WI-FI Local do Laboratório
+
+- O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
+- Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
    
 <div style="text-align:center;">
   <img src="img/lan.jpg" alt="lan" style="width:50%;">
@@ -375,8 +378,6 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 - Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
 - Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
 - Configurar o **acesso direto (LAN)** no aplicativo **Hik-Connect**, utilizando o **endereço IP do DVR** e as **credenciais de login** fornecidas pelo professor.  
-- O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
-- Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
 
 **Configurações da Rede Wi-Fi do Laboratório**
 
