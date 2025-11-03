@@ -371,7 +371,15 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 3. Clique em **IP Camera > Custom Add** ou **Add** em *Video Device*.  
 4. Insira os **parâmetros de rede da câmera** (IP, porta, usuário e senha).  
 5. Clique em **Add** para finalizar.
-6. 
+6. Configurações das câmeras IP (2 unidades)
+   
+| Parâmetro | Valor |
+|------------|--------|
+| **Acesso http** | 10.240.240.x | verificar qual IP elas pegaram do DHCP
+| **Usuário** | admin |
+| **senha** | 123456 |
+
+
 ---
 
 08. **Teste de Visualização e Gravação**
