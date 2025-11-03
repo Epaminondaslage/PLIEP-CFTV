@@ -169,9 +169,11 @@ O cabeamento é essencial para garantir a qualidade da imagem e a estabilidade d
 As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, design e recursos.
 
 #### Câmeras Analógicas
+
 <div style="text-align:center;">
      <img src="img/camera_analogicas.jpg" alt="cameras" style="width:20%;">
 </div>
+
 - Conectadas via cabo coaxial.  
 - Requerem DVR para gravação.  
 - Resolução limitada (SD a Full HD).  
@@ -179,9 +181,11 @@ As câmeras são o núcleo do sistema de CFTV e variam conforme a tecnologia, de
 - Usadas em sistemas locais e de menor custo.  
 
 #### Câmeras IP (Internet Protocol)
+
 <div style="text-align:center;">
      <img src="img/camera_ip.jpg" alt="cameras" style="width:20%;">
 </div>
+
 - Conectadas via rede de dados (UTP).  
 - Requerem NVR para gravação e gerenciamento.  
 - Transmitem vídeo digital em alta definição (até 4K).  
