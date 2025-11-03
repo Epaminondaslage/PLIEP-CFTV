@@ -351,14 +351,6 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 - O **Laboratório de Instalações Elétricas Prediais (LIEP)** possui uma **rede local (LAN)** e um **Wi-Fi isolados da rede institucional do CEFET-MG** por meio de um **firewall dedicado**.  
 - Essa rede é destinada **exclusivamente à conexão de equipamentos internos** utilizados nas aulas práticas, como **DVRs de CFTV, PBX IP e telefones IP**.
 
-**Configurações da Rede Local (DHCP)**
-
-| Parâmetro | Valor |
-|------------|--------|
-| **Faixa de IPs** | 10.240.240.x *(x varia de 20 a 240)* |
-| **Gateway padrão** | 10.240.240.1 |
-| **Máscara de sub-rede** | 255.255.255.0 |
-
 **Configurações da Rede Wi-Fi do Laboratório**
 
 | Parâmetro | Valor |
@@ -367,132 +359,48 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 | **Senha** | prediais123 |
 | **Acesso à Internet** | Não disponível *(rede restrita apenas à LAN do laboratório)* |
 
-> ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
-> Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
-
-6. **Guia de Inicialização e Configuração – DVR/NVR Hikvision**
-
-###  Inicialização (Startup)
-
-Uma inicialização correta é essencial para **aumentar a vida útil do DVR/NVR** e garantir seu funcionamento adequado.
-
-**Passo 1:** Conecte a **fonte de alimentação** do dispositivo a uma tomada elétrica.  
-**Passo 2:** Pressione o **botão de energia** (em alguns modelos, localizado no painel frontal ou traseiro).  
-
-> Após esse procedimento, o dispositivo iniciará o processo de inicialização automaticamente.
-
----
-
-###  Ativação do Dispositivo
-
-Antes da ativação, **nenhuma operação é permitida**.  
-Na primeira vez que o equipamento for acessado, será necessário **definir uma senha de administrador (admin)** para ativação do sistema.  
-A ativação também pode ser realizada via **navegador web, software SADP** ou **cliente Hikvision iVMS**.
-
-**Passos para ativar o dispositivo:**
-
-1. Insira uma **nova senha** e confirme-a.  
-2. *(Opcional)* Configure um **e-mail de recuperação**, **Hik-Connect**, **perguntas de segurança** ou **exporte o GUID** para redefinição de senha futura.  
-3. Configure a senha para **ativar as câmeras IP** conectadas ao dispositivo.  
-4. Salve as configurações e **conclua a ativação**.
-
----
-
-###  Configurações de Rede (Network Settings)
-
-Antes de operar o DVR/NVR em rede, é necessário **configurar corretamente os parâmetros de rede**.
-
-**Passos:**
-
-1. Acesse:  
-   `Configuration > Network > General`  
-   ou `System > Network > TCP/IP`  
-   ou `System > System Settings > Network > Network > TCP/IP`.  
-2. Configure os **parâmetros de rede** (IP, máscara, gateway e DNS).
-   
-####  Configurações de rede do DVR
+Seu celular irá operar nesta faixa de rede:
 
 | Parâmetro | Valor |
 |------------|--------|
-| **IP** | 10.240.240.30 |
+| **Faixa de IPs** | 10.240.240.x *(x varia de 20 a 240)* |
 | **Gateway padrão** | 10.240.240.1 |
 | **Máscara de sub-rede** | 255.255.255.0 |
+
+> ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
+> Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
+
+6. **Acesso ao DVR através de navegadores web(microcomputadores)**
+
+| Parâmetro | Valor |
+|------------|--------|
+| **Acesso http** | 10.240.240.30:80 |
 | **Usuário** | admin |
-| **senha** | deecefet |
-   
-3. Salve as configurações.
+| **senha** | DEEcefet |
 
 ---
+7. **Acesso ao DVR através do Hik-Connect (celular)**
 
-7. **Adicionar Câmeras IP (Add Network Camera)**
+| Parâmetro | Valor |
+|------------|--------|
+| **Acesso http** | 10.240.240.30:XXXX |
+| **Usuário** | admin |
+| **senha** | DEEcefet |
+
+---
+7. **Adicionar Câmeras IP (Add Network Camera)** (caso não estejam configuradas)
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
-**Passos:**
-
-1. Acesse:  
-   `Configuration > Camera`  
-   ou `System > Device Access > Device > Video Device`.  
+1. Acesse no DVR:  
+   `Configuration > Camera` ou `System > Device Access > Device > Video Device`.  
 2. *(Opcional)* Em determinados modelos de DVR híbrido, defina o tipo de entrada de sinal (**analógico ou IP**).  
 3. Clique em **IP Camera > Custom Add** ou **Add** em *Video Device*.  
 4. Insira os **parâmetros de rede da câmera** (IP, porta, usuário e senha).  
 5. Clique em **Add** para finalizar.
-
+6. 
 ---
 
-8. **Configuração do Hik-Connect**
-
-**Passos:**
-
-1. Acesse:  
-   `Configuration > Network > Hik-Connect`  
-   ou `System > Network > Advanced > Platform Access`.  
-2. **Habilite a função** e aceite os **termos de serviço**.  
-3. Defina um **código de verificação (Verification Code)**.  
-4. No smartphone, **escaneie o QR Code** e baixe o aplicativo **Hik-Connect**.  
-5. No aplicativo, **escaneie o QR Code do dispositivo** e vincule-o à conta.  
-6. *(Opcional)* Configure um **endereço de servidor personalizado (Server IP)**.  
-7. *(Opcional)* Habilite a **criptografia de streaming** — será necessário inserir o código de verificação para acesso remoto.  
-8. *(Opcional)* Habilite a **sincronização de horário** com o Hik-Connect em vez do servidor NTP.  
-9. Salve as configurações.
-
----
-
-9. **Configuração de Gravação (Recording Settings)**
-
-Antes de iniciar a gravação, certifique-se de que o **disco rígido (HDD)** está corretamente instalado ou adicionado ao sistema.  
-Por padrão, o dispositivo grava continuamente (**Continuous / All-Day**) após a adição das câmeras.
-
-**Para editar o agendamento de gravação:**
-
-1. Acesse:  
-   `Configuration > Record > Schedule`  
-   ou `System > Storage Management > Storage Schedule > Video Recording`.  
-2. Selecione a **câmera desejada**.  
-3. Ative a função de **gravação**.  
-4. Escolha o **tipo de gravação** (contínua, detecção de movimento, alarme, etc.) e ajuste o **calendário ou modelo de gravação**.  
-5. Salve as configurações.
-
----
-
-10. **Reprodução (Playback)**
-
-Os arquivos gravados no **disco rígido (HDD)** podem ser reproduzidos diretamente no DVR/NVR ou via software cliente.
-
-**Passos:**
-
-1. Acesse o menu **Playback**.  
-2. Selecione uma ou mais **câmeras** na lista.  
-3. Clique duas vezes na **data desejada** no calendário.  
-4. Utilize a **barra de ferramentas inferior** para controlar a reprodução (play, pause, avanço rápido, captura de imagem, zoom digital, etc.).
-
-> Consulte o manual do usuário para instruções detalhadas sobre os modos de reprodução disponíveis.
-
----
-
-11. **Teste de Visualização e Gravação**
-- Validar a **visualização em tempo real** das câmeras analógicas e IP no aplicativo.  
-- Testar a **gravação e reprodução** de imagens no DVR.  
-- Ajustar **resolução, taxa de quadros e compressão de vídeo** conforme instruções do professor.  
+08. **Teste de Visualização e Gravação**
 
 ---
