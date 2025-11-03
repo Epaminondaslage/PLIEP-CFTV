@@ -350,7 +350,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
 
 <div style="text-align:center;">
-<img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
+   <img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
 </div>
    
 ---
@@ -360,16 +360,17 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.
    - O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
 
-      <div style="text-align:center;">
-           <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
-      </div>
+<div style="text-align:center;">
+   <img src="img/qrcode.jpg" alt="QR Code" style="width:20%;">
+</div>
+
 ---
 
 ### 5-Conexão do celular ao Sistema WI-FI Local do Laboratório
    
-    <div style="text-align:center;">
-           <img src="img/lan.jpg" alt="lan" style="width:50%;">
-      </div>
+<div style="text-align:center;">
+  <img src="img/lan.jpg" alt="lan" style="width:50%;">
+</div>
 
 - Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
 - Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
