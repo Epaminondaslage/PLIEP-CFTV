@@ -349,9 +349,9 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    - Conectar as **câmeras IP** e o **DVR** à **rede Ethernet** do laboratório.  
    - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
 
-   <div style="text-align:center;">
-     <img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
-   </div>
+<div style="text-align:center;">
+<img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
+</div>
    
 ---
 
