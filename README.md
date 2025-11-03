@@ -49,10 +49,6 @@
 
 ---
 
-
-
----
-
 ## Carga Horária
 2 horas-aula
 
