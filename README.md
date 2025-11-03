@@ -317,6 +317,10 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 ---
 
 5. **Conexão do celular ao Sistema WI-FI Local do Laboratório**
+   
+    <div style="text-align:center;">
+           <img src="img/lan.jpg" alt="lan" style="width:50%;">
+      </div>
 
 - Alterar a conexão Wi-Fi do celular para a rede **DEE-Lab.Prediais**.  
 - Garantir que o dispositivo móvel e o **DVR** estejam na **mesma sub-rede local**.  
