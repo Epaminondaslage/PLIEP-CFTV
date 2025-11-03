@@ -331,7 +331,9 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
 1. **Montagem do Cabeamento Coaxial**  
    - Confeccionar e instalar **cabos coaxiais RG59** entre as **cinco câmeras analógicas** instaladas nos boxes e o **DVR Hikvision**.  
    - Certificar-se de que os conectores **BNC** estão corretamente prensados e identificados.  
-   - Verificar continuidade e integridade dos cabos antes da conexão final.  
+   - Verificar continuidade e integridade dos cabos antes da conexão final.
+     
+---
 
 2. **Montagem do Cabeamento UTP**  
    - Montar e testar os **cabos UTP Categoria 5 ou superior** para interligação das **câmeras IP** à rede.  
@@ -340,6 +342,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    -  Crimpar e testar o  conector RJ45 
 
       [Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
+---
 
 3. **Conexões Finais e Integração com o DVR**  
    - Conectar as **câmeras analógicas** às portas **BNC** do DVR.  
@@ -349,6 +352,8 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    <div style="text-align:center;">
      <img src="img/interface.jpg" alt="DVR Hikvision" style="width:60%;">
    </div>
+   
+---
 
 4. **Configuração do Aplicativo de Monitoramento**  
    - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
@@ -391,6 +396,8 @@ Seu celular irá operar nesta faixa de rede:
 > ⚠️ **Atenção:** Esta rede é de uso exclusivo do laboratório e não possui acesso à Internet.  
 > Qualquer tentativa de atualização de aplicativos ou download de arquivos deve ser realizada na rede **CEFET-Aluno**, antes da mudança para a rede **DEE-Prediais**.
 
+---
+
 6. **Acesso ao DVR através de navegadores web(microcomputadores)**
 
 | Parâmetro | Valor |
@@ -400,6 +407,7 @@ Seu celular irá operar nesta faixa de rede:
 | **senha** | DEEcefet |
 
 ---
+
 7. **Acesso ao DVR através do Hik-Connect (celular)**
 
 | Parâmetro | Valor |
@@ -409,7 +417,8 @@ Seu celular irá operar nesta faixa de rede:
 | **senha** | DEEcefet |
 
 ---
-7. **Adicionar Câmeras IP (Add Network Camera)** (caso não estejam configuradas)
+
+8. **Adicionar Câmeras IP (Add Network Camera)** (caso não estejam configuradas)
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
@@ -430,6 +439,6 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-08. **Teste de Visualização e Gravação**
+9. **Teste de Visualização e Gravação**
 
 ---
