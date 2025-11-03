@@ -5,6 +5,50 @@
 **Laboratório de Instalações Elétricas Prediais - PLIEP**  
 ## Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 ---
+## 📚 Sumário
+
+- [Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)](#aula-prática--sistemas-de-circuito-fechado-de-televisão-cftv)
+- [Carga Horária](#carga-horária)
+- [🎯 Objetivo Geral](#-objetivo-geral)
+- [🎯 Objetivos Específicos](#-objetivos-específicos)
+- [Competências e Habilidades](#competências-e-habilidades)
+- [Introdução](#introdução)
+- [Conteúdo Programático](#conteúdo-programático)
+  - [1. Fundamentos do CFTV](#1-fundamentos-do-cftv)
+    - [Conceito e Diferença entre Circuito Aberto e Circuito Fechado](#conceito-e-diferença-entre-circuito-aberto-e-circuito-fechado)
+    - [Finalidades Técnicas e Operacionais do CFTV](#finalidades-técnicas-e-operacionais-do-cftv)
+    - [Importância do CFTV na Segurança Eletrônica](#importância-do-cftv-na-segurança-eletrônica)
+  - [2. Formas de Cabeamento](#2-formas-de-cabeamento)
+    - [Cabo Coaxial](#cabo-coaxial)
+    - [Cabo UTP (Unshielded Twisted Pair)](#cabo-utp-unshielded-twisted-pair)
+  - [3. Tipos de Câmeras](#3-tipos-de-câmeras)
+    - [Câmeras Analógicas](#câmeras-analógicas)
+    - [Câmeras IP (Internet Protocol)](#câmeras-ip-internet-protocol)
+  - [4. Equipamentos de Gravação](#4-equipamentos-de-gravação)
+    - [DVR (Digital Video Recorder)](#dvr-digital-video-recorder)
+    - [NVR (Network Video Recorder)](#nvr-network-video-recorder)
+  - [Características do DVR híbrido Hikvision DS-7108HGHI-K1](#características-do-dvr-hibrido-hikvision-s-ds-7108hghi-k1)
+  - [5. Evolução Tecnológica e Integração](#5-evolução-tecnológica-e-integração)
+    - [Inteligência Artificial (IA)](#inteligência-artificial-ia)
+    - [Internet das Coisas (IoT)](#internet-das-coisas-iot)
+    - [Armazenamento e Monitoramento em Nuvem](#armazenamento-e-monitoramento-em-nuvem)
+    - [Integração com Automação Predial e Controle de Acesso](#integração-com-automação-predial-e-controle-de-acesso)
+- [Metodologia](#metodologia)
+- [Recursos Didáticos](#recursos-didáticos)
+- [Parte Prática](#parte-prática)
+  - [Procedimentos](#procedimentos)
+    - [Montagem do Cabeamento Coaxial](#montagem-do-cabeamento-coaxial)
+    - [Montagem do Cabeamento UTP](#montagem-do-cabeamento-utp)
+    - [Conexões Finais e Integração com o DVR](#conexões-finais-e-integração-com-o-dvr)
+    - [Configuração do Aplicativo de Monitoramento](#configuração-do-aplicativo-de-monitoramento)
+    - [Conexão do celular ao Sistema WI-FI Local do Laboratório](#conexão-do-celular-ao-sistema-wi-fi-local-do-laboratório)
+    - [Acesso ao DVR através de navegadores web (microcomputadores)](#acesso-ao-dvr-através-de-navegadores-webmicrocomputadores)
+    - [Acesso ao DVR através do Hik-Connect (celular)](#acesso-ao-dvr-através-do-hik-connect-celular)
+    - [Adicionar Câmeras IP (Add Network Camera)](#adicionar-câmeras-ip-add-network-camera)
+    - [Teste de Visualização e Gravação](#teste-de-visualização-e-gravação)
+
+---
+
 
 
 ---
