@@ -37,15 +37,15 @@
 - [Recursos Didáticos](#recursos-didáticos)
 - [Parte Prática](#parte-prática)
   - [Procedimentos](#procedimentos)
-    - [Montagem do Cabeamento Coaxial](#1-montagem-do-cabeamento-coaxial)
-    - [Montagem do Cabeamento UTP](#montagem-do-cabeamento-utp)
-    - [Conexões Finais e Integração com o DVR](#conexões-finais-e-integração-com-o-dvr)
-    - [Configuração do Aplicativo de Monitoramento](#configuração-do-aplicativo-de-monitoramento)
-    - [Conexão do celular ao Sistema WI-FI Local do Laboratório](#conexão-do-celular-ao-sistema-wi-fi-local-do-laboratório)
-    - [Acesso ao DVR através de navegadores web (microcomputadores)](#acesso-ao-dvr-através-de-navegadores-webmicrocomputadores)
-    - [Acesso ao DVR através do Hik-Connect (celular)](#acesso-ao-dvr-através-do-hik-connect-celular)
-    - [Adicionar Câmeras IP (Add Network Camera)](#adicionar-câmeras-ip-add-network-camera)
-    - [Teste de Visualização e Gravação](#teste-de-visualização-e-gravação)
+    - [1-Montagem do Cabeamento Coaxial](#1-montagem-do-cabeamento-coaxial)
+    - [2-Montagem do Cabeamento UTP](#2-montagem-do-cabeamento-utp)
+    - [3-Conexões Finais e Integração com o DVR](#3-conexões-finais-e-integração-com-o-dvr)
+    - [4-Configuração do Aplicativo de Monitoramento](#4-configuração-do-aplicativo-de-monitoramento)
+    - [5-Conexão do celular ao Sistema WI-FI Local do Laboratório](#5-conexão-do-celular-ao-sistema-wi-fi-local-do-laboratório)
+    - [6-Acesso ao DVR através de navegadores web (microcomputadores)](#6-acesso-ao-dvr-através-de-navegadores-webmicrocomputadores)
+    - [7-Acesso ao DVR através do Hik-Connect (celular)](#7-acesso-ao-dvr-através-do-hik-connect-celular)
+    - [8-Adicionar Câmeras IP (Add Network Camera)](#8-adicionar-câmeras-ip-add-network-camera)
+    - [9-Teste de Visualização e Gravação](#9-teste-de-visualização-e-gravação)
 
 ---
 
@@ -335,7 +335,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
      
 ---
 
-### Montagem do Cabeamento UTP  
+### 2-Montagem do Cabeamento UTP  
    - Montar e testar os **cabos UTP Categoria 5 ou superior** para interligação das **câmeras IP** à rede.  
    - Utilizar conectores **RJ45 padrão T568B** em ambas as extremidades.  
    - Garantir a correta fixação do cabo no rack ou ponto de rede designado.
@@ -344,7 +344,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
       [Ver guia de montagem e teste de conector RJ-45](https://github.com/Epaminondaslage/PLIEP-PBXIP/blob/main/Crimpar-conector-RJ-45.md)
 ---
 
-### Conexões Finais e Integração com o DVR 
+### 3-Conexões Finais e Integração com o DVR 
    - Conectar as **câmeras analógicas** às portas **BNC** do DVR.  
    - Conectar as **câmeras IP** e o **DVR** à **rede Ethernet** do laboratório.  
    - Verificar o **link de rede**, **alimentação** e **endereçamento IP** dos dispositivos.  
@@ -355,7 +355,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
    
 ---
 
-### Configuração do Aplicativo de Monitoramento  
+### 4-Configuração do Aplicativo de Monitoramento  
    - Baixar o aplicativo **Hik-Connect** (Hikvision) em seu smartphone.  
    - Certificar-se de que o celular está conectado à rede **Wi-Fi CEFET-Aluno** durante o download e instalação.
    - O **Hik-Connect** é um aplicativo e plataforma da Hikvision que permite **acesso remoto** e gerenciamento das câmeras via **smartphone**.
@@ -365,7 +365,7 @@ Nesta atividade, o aluno deverá **montar, configurar e testar um sistema comple
       </div>
 ---
 
-### Conexão do celular ao Sistema WI-FI Local do Laboratório
+### 5-Conexão do celular ao Sistema WI-FI Local do Laboratório
    
     <div style="text-align:center;">
            <img src="img/lan.jpg" alt="lan" style="width:50%;">
@@ -398,7 +398,7 @@ Seu celular irá operar nesta faixa de rede:
 
 ---
 
-### Acesso ao DVR através de navegadores web(microcomputadores)
+### 6-Acesso ao DVR através de navegadores web(microcomputadores)
 
 | Parâmetro | Valor |
 |------------|--------|
@@ -408,7 +408,7 @@ Seu celular irá operar nesta faixa de rede:
 
 ---
 
-### Acesso ao DVR através do Hik-Connect (celular)
+### 7-Acesso ao DVR através do Hik-Connect (celular)
 
 | Parâmetro | Valor |
 |------------|--------|
@@ -418,7 +418,7 @@ Seu celular irá operar nesta faixa de rede:
 
 ---
 
-### Adicionar Câmeras IP (Add Network Camera) (caso não estejam configuradas)
+### 8-Adicionar Câmeras IP (Add Network Camera) (caso não estejam configuradas)
 
 Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de rede (IP)** ao sistema.
 
@@ -439,6 +439,6 @@ Antes de visualizar ou gravar vídeos, é necessário **adicionar as câmeras de
 
 ---
 
-### Teste de Visualização e Gravação
+### 9-Teste de Visualização e Gravação
 
 ---
