@@ -208,6 +208,20 @@ Os gravadores são responsáveis por armazenar, processar e disponibilizar as im
 
 #### NVR (Network Video Recorder)
 
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:33.3%; text-align:center;">
+      <img src="tela1.png" alt="Tela 1" style="width:100%;"/>
+    </td>
+    <td style="width:33.3%; text-align:center;">
+      <img src="tela2.png" alt="Tela 2" style="width:100%;"/>
+    </td>
+    <td style="width:33.3%; text-align:center;">
+      <img src="tela3.png" alt="Tela 3" style="width:100%;"/>
+    </td>
+  </tr>
+</table>
+
 - Utilizado em sistemas **IP**.  
 - Conecta-se às câmeras via rede (Ethernet).  
 - Recebe os sinais já digitalizados.  
