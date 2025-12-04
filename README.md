@@ -2,9 +2,9 @@
     <img src="https://raw.githubusercontent.com/Epaminondaslage/Lab-IoT-ELE-CEFET/master/img/Logo_CEFET-MG.png" width="20%" />
 </td>
 
-**Departamento de Engenharia Elétrica do CEFET-MG Campus NG**  
-**Coordenação do Curso Técnico de Eletrotécnica**  
-**Laboratório de Instalações Elétricas Prediais - PLIEP**  
+### Departamento de Engenharia Elétrica do CEFET-MG Campus NG
+### Coordenação do Curso Técnico de Eletrotécnica 
+### Laboratório de Instalações Elétricas Prediais - PLIEP
 ## Aula Prática – Sistemas de Circuito Fechado de Televisão (CFTV)
 ---
 
